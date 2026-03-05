@@ -58,7 +58,7 @@ for pedido_id in range(1, 501):
     })
 
 # Salvar CSV
-file_path = '../../../data/landing_zone/product-sales.csv'
+file_path = '../../../medallion_architecture/landing_zone/product-sales.csv'
 with open(file_path, mode="w", newline="", encoding="utf-8") as file:
     writer = csv.DictWriter(file, fieldnames=linhas[0].keys())
     writer.writeheader()
