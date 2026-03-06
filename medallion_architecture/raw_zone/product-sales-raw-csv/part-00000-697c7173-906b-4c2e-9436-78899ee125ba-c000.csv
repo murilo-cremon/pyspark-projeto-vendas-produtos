@@ -1,0 +1,501 @@
+id_pedido,data_pedido,id_cliente,nome_cliente,email_cliente,data_cadastro_cliente,estado_civil_cliente,genero_cliente,id_produto,nome_produto,categoria_produto,subcategoria_produto,fabricante_produto,valor_venda,quantidade_venda,custo_produto
+1,2024-09-01,129,Allana Moreira,brendamarques@example.net,2023-12-21,Viúvo,M,9,SSD 1TB,Armazenamento,SSD,Kingston,621.1,1,450
+2,2023-11-07,110,Amanda da Cunha,fogacaemanuella@example.org,2023-06-04,Casado,F,10,Impressora Laser,Impressoras,Laser,HP,1563.86,1,1100
+3,2024-04-25,102,Guilherme Novais,santosbeatriz@example.net,2024-04-03,Casado,F,6,Teclado Mecânico,Periféricos,Teclado,Razer,1484.7,3,400
+4,2024-10-15,113,Emanuel Camargo,kevin95@example.net,2024-05-29,Viúvo,F,2,Smartphone X,Smartphones,Android,Samsung,2836.42,1,2100
+5,2025-01-22,113,Emanuel Camargo,kevin95@example.net,2024-05-29,Viúvo,F,4,Monitor 27 4K,Periféricos,Monitor,LG,4467.03,3,1200
+6,2024-12-17,127,Hellena Brito,theocosta@example.com,2024-09-01,Casado,F,5,Mouse Gamer,Periféricos,Mouse,Logitech,143.78,1,120
+7,2025-05-09,116,Henry Machado,salesmaria-flor@example.net,2025-02-10,Viúvo,M,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,4022.8,2,1500
+8,2025-05-13,106,Apollo da Cunha,larissa12@example.org,2025-03-18,Solteiro,F,6,Teclado Mecânico,Periféricos,Teclado,Razer,441.85,1,400
+9,2025-12-29,104,Gael Henrique da Cruz,ferreiralais@example.org,2025-01-19,Divorciado,F,1,Notebook Pro 15,Computadores,Notebook,Dell,5942.6,1,4200
+10,2025-07-13,111,Lívia Azevedo,lorenacunha@example.org,2025-05-26,Divorciado,F,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,1970.79,1,1500
+11,2023-09-01,115,Enzo Marques,ogomes@example.com,2023-08-10,Casado,F,8,Headset Pro,Áudio,Headset,HyperX,399.49,1,300
+12,2024-08-04,117,Srta. Maitê Barbosa,vieiratheo@example.com,2024-07-09,Viúvo,F,6,Teclado Mecânico,Periféricos,Teclado,Razer,1423.44,3,400
+13,2024-12-16,117,Srta. Maitê Barbosa,vieiratheo@example.com,2024-07-09,Viúvo,F,10,Impressora Laser,Impressoras,Laser,HP,2592.06,2,1100
+14,2025-10-10,116,Henry Machado,salesmaria-flor@example.net,2025-02-10,Viúvo,M,5,Mouse Gamer,Periféricos,Mouse,Logitech,163.96,1,120
+15,2024-10-23,117,Srta. Maitê Barbosa,vieiratheo@example.com,2024-07-09,Viúvo,F,4,Monitor 27 4K,Periféricos,Monitor,LG,5203.65,3,1200
+16,2025-10-27,114,Mariana Azevedo,lopesana-carolina@example.net,2025-01-03,Solteiro,M,10,Impressora Laser,Impressoras,Laser,HP,1534.92,1,1100
+17,2025-01-23,107,Augusto Siqueira,cardosojoao-pedro@example.org,2024-07-22,Solteiro,F,4,Monitor 27 4K,Periféricos,Monitor,LG,4917.75,3,1200
+18,2024-10-29,129,Allana Moreira,brendamarques@example.net,2023-12-21,Viúvo,M,9,SSD 1TB,Armazenamento,SSD,Kingston,1225.46,2,450
+19,2026-01-25,120,Ana Liz Duarte,dantenunes@example.net,2026-01-01,Casado,F,6,Teclado Mecânico,Periféricos,Teclado,Razer,939.04,2,400
+20,2025-11-30,104,Gael Henrique da Cruz,ferreiralais@example.org,2025-01-19,Divorciado,F,9,SSD 1TB,Armazenamento,SSD,Kingston,563.07,1,450
+21,2025-12-08,111,Lívia Azevedo,lorenacunha@example.org,2025-05-26,Divorciado,F,6,Teclado Mecânico,Periféricos,Teclado,Razer,1539.24,3,400
+22,2026-02-26,101,Murilo Leão,marcelo69@example.org,2024-08-12,Divorciado,F,10,Impressora Laser,Impressoras,Laser,HP,4729.2,3,1100
+23,2025-07-19,109,Natália Machado,alice98@example.net,2025-06-12,Divorciado,M,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,6687.9,3,1500
+24,2025-07-11,104,Gael Henrique da Cruz,ferreiralais@example.org,2025-01-19,Divorciado,F,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,3692.24,2,1500
+25,2025-11-18,122,Josué Moraes,mendesana-cecilia@example.org,2025-05-31,Divorciado,M,4,Monitor 27 4K,Periféricos,Monitor,LG,5243.34,3,1200
+26,2026-02-25,120,Ana Liz Duarte,dantenunes@example.net,2026-01-01,Casado,F,10,Impressora Laser,Impressoras,Laser,HP,1590.07,1,1100
+27,2023-11-28,110,Amanda da Cunha,fogacaemanuella@example.org,2023-06-04,Casado,F,6,Teclado Mecânico,Periféricos,Teclado,Razer,1459.44,3,400
+28,2025-05-16,107,Augusto Siqueira,cardosojoao-pedro@example.org,2024-07-22,Solteiro,F,6,Teclado Mecânico,Periféricos,Teclado,Razer,1729.83,3,400
+29,2026-02-20,125,Srta. Maria Vitória Cardoso,antoniomoreira@example.com,2025-08-28,Viúvo,F,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,5907.84,3,1500
+30,2026-02-10,106,Apollo da Cunha,larissa12@example.org,2025-03-18,Solteiro,F,2,Smartphone X,Smartphones,Android,Samsung,7494.39,3,2100
+31,2026-03-02,126,Renan Monteiro,maria-fernanda02@example.net,2026-02-25,Solteiro,M,6,Teclado Mecânico,Periféricos,Teclado,Razer,1732.89,3,400
+32,2025-01-17,129,Allana Moreira,brendamarques@example.net,2023-12-21,Viúvo,M,4,Monitor 27 4K,Periféricos,Monitor,LG,1574.07,1,1200
+33,2026-02-25,126,Renan Monteiro,maria-fernanda02@example.net,2026-02-25,Solteiro,M,5,Mouse Gamer,Periféricos,Mouse,Logitech,347.42,2,120
+34,2026-02-06,116,Henry Machado,salesmaria-flor@example.net,2025-02-10,Viúvo,M,4,Monitor 27 4K,Periféricos,Monitor,LG,1414.11,1,1200
+35,2024-07-31,108,Hadassa Caldeira,allanaaparecida@example.org,2024-01-08,Solteiro,M,4,Monitor 27 4K,Periféricos,Monitor,LG,1322.76,1,1200
+36,2025-06-19,129,Allana Moreira,brendamarques@example.net,2023-12-21,Viúvo,M,8,Headset Pro,Áudio,Headset,HyperX,669.54,2,300
+37,2024-03-22,115,Enzo Marques,ogomes@example.com,2023-08-10,Casado,F,1,Notebook Pro 15,Computadores,Notebook,Dell,5357.05,1,4200
+38,2025-10-18,125,Srta. Maria Vitória Cardoso,antoniomoreira@example.com,2025-08-28,Viúvo,F,5,Mouse Gamer,Periféricos,Mouse,Logitech,316.06,2,120
+39,2026-01-04,122,Josué Moraes,mendesana-cecilia@example.org,2025-05-31,Divorciado,M,10,Impressora Laser,Impressoras,Laser,HP,4314.72,3,1100
+40,2026-01-22,104,Gael Henrique da Cruz,ferreiralais@example.org,2025-01-19,Divorciado,F,4,Monitor 27 4K,Periféricos,Monitor,LG,3373.78,2,1200
+41,2025-10-06,110,Amanda da Cunha,fogacaemanuella@example.org,2023-06-04,Casado,F,2,Smartphone X,Smartphones,Android,Samsung,4658.04,2,2100
+42,2024-04-12,103,Bianca Camargo,ncosta@example.org,2023-07-08,Solteiro,M,3,Tablet Plus,Tablets,Tablet,Apple,7439.34,2,3000
+43,2025-12-30,123,Pedro Miguel Câmara,alicia44@example.org,2025-12-17,Casado,M,2,Smartphone X,Smartphones,Android,Samsung,7989.45,3,2100
+44,2026-02-03,108,Hadassa Caldeira,allanaaparecida@example.org,2024-01-08,Solteiro,M,4,Monitor 27 4K,Periféricos,Monitor,LG,1449.27,1,1200
+45,2025-09-09,109,Natália Machado,alice98@example.net,2025-06-12,Divorciado,M,1,Notebook Pro 15,Computadores,Notebook,Dell,12450.24,2,4200
+46,2024-02-29,119,Dante Jesus,lizmartins@example.net,2023-10-04,Casado,M,10,Impressora Laser,Impressoras,Laser,HP,2970.26,2,1100
+47,2025-06-10,113,Emanuel Camargo,kevin95@example.net,2024-05-29,Viúvo,F,5,Mouse Gamer,Periféricos,Mouse,Logitech,319.16,2,120
+48,2025-12-23,105,Francisco Silva,renanmarques@example.org,2025-11-18,Solteiro,M,8,Headset Pro,Áudio,Headset,HyperX,1022.19,3,300
+49,2026-02-13,120,Ana Liz Duarte,dantenunes@example.net,2026-01-01,Casado,F,5,Mouse Gamer,Periféricos,Mouse,Logitech,486.39,3,120
+50,2026-01-23,123,Pedro Miguel Câmara,alicia44@example.org,2025-12-17,Casado,M,9,SSD 1TB,Armazenamento,SSD,Kingston,1629.48,3,450
+51,2025-11-28,104,Gael Henrique da Cruz,ferreiralais@example.org,2025-01-19,Divorciado,F,9,SSD 1TB,Armazenamento,SSD,Kingston,1326.2,2,450
+52,2026-01-23,125,Srta. Maria Vitória Cardoso,antoniomoreira@example.com,2025-08-28,Viúvo,F,10,Impressora Laser,Impressoras,Laser,HP,4418.61,3,1100
+53,2026-02-04,105,Francisco Silva,renanmarques@example.org,2025-11-18,Solteiro,M,10,Impressora Laser,Impressoras,Laser,HP,3294.26,2,1100
+54,2026-01-05,122,Josué Moraes,mendesana-cecilia@example.org,2025-05-31,Divorciado,M,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,1752.74,1,1500
+55,2026-01-09,108,Hadassa Caldeira,allanaaparecida@example.org,2024-01-08,Solteiro,M,4,Monitor 27 4K,Periféricos,Monitor,LG,2867.6,2,1200
+56,2023-11-27,115,Enzo Marques,ogomes@example.com,2023-08-10,Casado,F,6,Teclado Mecânico,Periféricos,Teclado,Razer,481.02,1,400
+57,2025-09-30,119,Dante Jesus,lizmartins@example.net,2023-10-04,Casado,M,9,SSD 1TB,Armazenamento,SSD,Kingston,1744.83,3,450
+58,2025-03-09,129,Allana Moreira,brendamarques@example.net,2023-12-21,Viúvo,M,1,Notebook Pro 15,Computadores,Notebook,Dell,16689.18,3,4200
+59,2024-04-29,108,Hadassa Caldeira,allanaaparecida@example.org,2024-01-08,Solteiro,M,6,Teclado Mecânico,Periféricos,Teclado,Razer,534.95,1,400
+60,2025-04-13,118,Sr. Gustavo Garcia,estersiqueira@example.net,2024-04-05,Viúvo,F,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,2145.16,1,1500
+61,2025-12-05,110,Amanda da Cunha,fogacaemanuella@example.org,2023-06-04,Casado,F,6,Teclado Mecânico,Periféricos,Teclado,Razer,540.12,1,400
+62,2026-02-04,125,Srta. Maria Vitória Cardoso,antoniomoreira@example.com,2025-08-28,Viúvo,F,1,Notebook Pro 15,Computadores,Notebook,Dell,18385.98,3,4200
+63,2024-01-24,103,Bianca Camargo,ncosta@example.org,2023-07-08,Solteiro,M,1,Notebook Pro 15,Computadores,Notebook,Dell,15941.07,3,4200
+64,2026-02-22,128,Sr. Otávio Camargo,vitoria58@example.net,2025-12-20,Viúvo,F,2,Smartphone X,Smartphones,Android,Samsung,5416.2,2,2100
+65,2026-02-05,120,Ana Liz Duarte,dantenunes@example.net,2026-01-01,Casado,F,9,SSD 1TB,Armazenamento,SSD,Kingston,1231.7,2,450
+66,2025-09-01,116,Henry Machado,salesmaria-flor@example.net,2025-02-10,Viúvo,M,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,1927.29,1,1500
+67,2026-01-13,106,Apollo da Cunha,larissa12@example.org,2025-03-18,Solteiro,F,10,Impressora Laser,Impressoras,Laser,HP,1324.38,1,1100
+68,2024-11-27,130,Agatha Cavalcante,camargofernanda@example.net,2023-07-18,Divorciado,M,2,Smartphone X,Smartphones,Android,Samsung,7660.11,3,2100
+69,2023-10-15,110,Amanda da Cunha,fogacaemanuella@example.org,2023-06-04,Casado,F,9,SSD 1TB,Armazenamento,SSD,Kingston,1201.28,2,450
+70,2025-11-10,106,Apollo da Cunha,larissa12@example.org,2025-03-18,Solteiro,F,2,Smartphone X,Smartphones,Android,Samsung,4811.54,2,2100
+71,2023-07-23,121,Luiz Fernando Alves,juliana61@example.com,2023-07-13,Viúvo,M,8,Headset Pro,Áudio,Headset,HyperX,823.9,2,300
+72,2024-02-11,121,Luiz Fernando Alves,juliana61@example.com,2023-07-13,Viúvo,M,4,Monitor 27 4K,Periféricos,Monitor,LG,3089.22,2,1200
+73,2025-03-11,103,Bianca Camargo,ncosta@example.org,2023-07-08,Solteiro,M,2,Smartphone X,Smartphones,Android,Samsung,6940.35,3,2100
+74,2024-05-04,108,Hadassa Caldeira,allanaaparecida@example.org,2024-01-08,Solteiro,M,6,Teclado Mecânico,Periféricos,Teclado,Razer,476.75,1,400
+75,2026-02-28,128,Sr. Otávio Camargo,vitoria58@example.net,2025-12-20,Viúvo,F,1,Notebook Pro 15,Computadores,Notebook,Dell,11729.54,2,4200
+76,2026-01-26,120,Ana Liz Duarte,dantenunes@example.net,2026-01-01,Casado,F,5,Mouse Gamer,Periféricos,Mouse,Logitech,158.74,1,120
+77,2026-01-10,120,Ana Liz Duarte,dantenunes@example.net,2026-01-01,Casado,F,10,Impressora Laser,Impressoras,Laser,HP,3020.78,2,1100
+78,2025-12-18,123,Pedro Miguel Câmara,alicia44@example.org,2025-12-17,Casado,M,4,Monitor 27 4K,Periféricos,Monitor,LG,1359.67,1,1200
+79,2025-09-13,114,Mariana Azevedo,lopesana-carolina@example.net,2025-01-03,Solteiro,M,3,Tablet Plus,Tablets,Tablet,Apple,9926.76,3,3000
+80,2025-08-24,110,Amanda da Cunha,fogacaemanuella@example.org,2023-06-04,Casado,F,9,SSD 1TB,Armazenamento,SSD,Kingston,1790.46,3,450
+81,2025-09-19,109,Natália Machado,alice98@example.net,2025-06-12,Divorciado,M,6,Teclado Mecânico,Periféricos,Teclado,Razer,1564.2,3,400
+82,2026-01-04,105,Francisco Silva,renanmarques@example.org,2025-11-18,Solteiro,M,10,Impressora Laser,Impressoras,Laser,HP,1548.36,1,1100
+83,2025-07-06,102,Guilherme Novais,santosbeatriz@example.net,2024-04-03,Casado,F,6,Teclado Mecânico,Periféricos,Teclado,Razer,495.16,1,400
+84,2026-02-19,120,Ana Liz Duarte,dantenunes@example.net,2026-01-01,Casado,F,8,Headset Pro,Áudio,Headset,HyperX,375.56,1,300
+85,2025-06-17,122,Josué Moraes,mendesana-cecilia@example.org,2025-05-31,Divorciado,M,5,Mouse Gamer,Periféricos,Mouse,Logitech,325.48,2,120
+86,2025-12-20,114,Mariana Azevedo,lopesana-carolina@example.net,2025-01-03,Solteiro,M,10,Impressora Laser,Impressoras,Laser,HP,3915.51,3,1100
+87,2025-05-10,130,Agatha Cavalcante,camargofernanda@example.net,2023-07-18,Divorciado,M,1,Notebook Pro 15,Computadores,Notebook,Dell,13998.81,3,4200
+88,2024-02-23,112,Antony Costa,rezendekevin@example.org,2024-01-08,Viúvo,M,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,2121.15,1,1500
+89,2025-06-11,117,Srta. Maitê Barbosa,vieiratheo@example.com,2024-07-09,Viúvo,F,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,5657.52,3,1500
+90,2024-05-18,121,Luiz Fernando Alves,juliana61@example.com,2023-07-13,Viúvo,M,10,Impressora Laser,Impressoras,Laser,HP,2928.76,2,1100
+91,2025-02-19,124,Maitê Viana,vianajulia@example.org,2024-08-21,Viúvo,M,5,Mouse Gamer,Periféricos,Mouse,Logitech,343.04,2,120
+92,2025-05-24,106,Apollo da Cunha,larissa12@example.org,2025-03-18,Solteiro,F,9,SSD 1TB,Armazenamento,SSD,Kingston,649.86,1,450
+93,2026-01-18,128,Sr. Otávio Camargo,vitoria58@example.net,2025-12-20,Viúvo,F,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,1656.08,1,1500
+94,2025-04-13,118,Sr. Gustavo Garcia,estersiqueira@example.net,2024-04-05,Viúvo,F,6,Teclado Mecânico,Periféricos,Teclado,Razer,1792.47,3,400
+95,2024-11-23,103,Bianca Camargo,ncosta@example.org,2023-07-08,Solteiro,M,1,Notebook Pro 15,Computadores,Notebook,Dell,10388.76,2,4200
+96,2024-09-28,118,Sr. Gustavo Garcia,estersiqueira@example.net,2024-04-05,Viúvo,F,2,Smartphone X,Smartphones,Android,Samsung,8793.81,3,2100
+97,2025-05-23,101,Murilo Leão,marcelo69@example.org,2024-08-12,Divorciado,F,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,6478.29,3,1500
+98,2024-07-28,107,Augusto Siqueira,cardosojoao-pedro@example.org,2024-07-22,Solteiro,F,2,Smartphone X,Smartphones,Android,Samsung,5768.32,2,2100
+99,2025-05-13,108,Hadassa Caldeira,allanaaparecida@example.org,2024-01-08,Solteiro,M,1,Notebook Pro 15,Computadores,Notebook,Dell,5468.38,1,4200
+100,2025-09-30,116,Henry Machado,salesmaria-flor@example.net,2025-02-10,Viúvo,M,4,Monitor 27 4K,Periféricos,Monitor,LG,1445.5,1,1200
+101,2026-01-17,120,Ana Liz Duarte,dantenunes@example.net,2026-01-01,Casado,F,5,Mouse Gamer,Periféricos,Mouse,Logitech,425.94,3,120
+102,2025-12-09,105,Francisco Silva,renanmarques@example.org,2025-11-18,Solteiro,M,3,Tablet Plus,Tablets,Tablet,Apple,11742.18,3,3000
+103,2024-04-08,118,Sr. Gustavo Garcia,estersiqueira@example.net,2024-04-05,Viúvo,F,1,Notebook Pro 15,Computadores,Notebook,Dell,5460.95,1,4200
+104,2025-01-09,121,Luiz Fernando Alves,juliana61@example.com,2023-07-13,Viúvo,M,3,Tablet Plus,Tablets,Tablet,Apple,12856.62,3,3000
+105,2025-06-01,127,Hellena Brito,theocosta@example.com,2024-09-01,Casado,F,1,Notebook Pro 15,Computadores,Notebook,Dell,5389.9,1,4200
+106,2024-06-18,115,Enzo Marques,ogomes@example.com,2023-08-10,Casado,F,4,Monitor 27 4K,Periféricos,Monitor,LG,3418.08,2,1200
+107,2025-01-28,127,Hellena Brito,theocosta@example.com,2024-09-01,Casado,F,4,Monitor 27 4K,Periféricos,Monitor,LG,3576.04,2,1200
+108,2026-02-27,120,Ana Liz Duarte,dantenunes@example.net,2026-01-01,Casado,F,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,1876.22,1,1500
+109,2026-01-13,122,Josué Moraes,mendesana-cecilia@example.org,2025-05-31,Divorciado,M,9,SSD 1TB,Armazenamento,SSD,Kingston,666.85,1,450
+110,2026-02-25,126,Renan Monteiro,maria-fernanda02@example.net,2026-02-25,Solteiro,M,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,1808.57,1,1500
+111,2026-02-04,123,Pedro Miguel Câmara,alicia44@example.org,2025-12-17,Casado,M,9,SSD 1TB,Armazenamento,SSD,Kingston,661.83,1,450
+112,2026-01-21,105,Francisco Silva,renanmarques@example.org,2025-11-18,Solteiro,M,3,Tablet Plus,Tablets,Tablet,Apple,8619.38,2,3000
+113,2025-04-13,114,Mariana Azevedo,lopesana-carolina@example.net,2025-01-03,Solteiro,M,3,Tablet Plus,Tablets,Tablet,Apple,8733.32,2,3000
+114,2025-12-01,117,Srta. Maitê Barbosa,vieiratheo@example.com,2024-07-09,Viúvo,F,9,SSD 1TB,Armazenamento,SSD,Kingston,501.35,1,450
+115,2024-05-12,129,Allana Moreira,brendamarques@example.net,2023-12-21,Viúvo,M,9,SSD 1TB,Armazenamento,SSD,Kingston,1145.7,2,450
+116,2025-12-19,110,Amanda da Cunha,fogacaemanuella@example.org,2023-06-04,Casado,F,4,Monitor 27 4K,Periféricos,Monitor,LG,5052.99,3,1200
+117,2025-06-09,127,Hellena Brito,theocosta@example.com,2024-09-01,Casado,F,10,Impressora Laser,Impressoras,Laser,HP,4161.75,3,1100
+118,2025-07-31,107,Augusto Siqueira,cardosojoao-pedro@example.org,2024-07-22,Solteiro,F,4,Monitor 27 4K,Periféricos,Monitor,LG,5128.02,3,1200
+119,2025-10-23,106,Apollo da Cunha,larissa12@example.org,2025-03-18,Solteiro,F,10,Impressora Laser,Impressoras,Laser,HP,3954.69,3,1100
+120,2026-01-01,104,Gael Henrique da Cruz,ferreiralais@example.org,2025-01-19,Divorciado,F,4,Monitor 27 4K,Periféricos,Monitor,LG,4511.37,3,1200
+121,2025-08-29,115,Enzo Marques,ogomes@example.com,2023-08-10,Casado,F,3,Tablet Plus,Tablets,Tablet,Apple,3321.72,1,3000
+122,2025-04-26,104,Gael Henrique da Cruz,ferreiralais@example.org,2025-01-19,Divorciado,F,1,Notebook Pro 15,Computadores,Notebook,Dell,6044.14,1,4200
+123,2026-02-19,105,Francisco Silva,renanmarques@example.org,2025-11-18,Solteiro,M,5,Mouse Gamer,Periféricos,Mouse,Logitech,307.1,2,120
+124,2025-01-05,121,Luiz Fernando Alves,juliana61@example.com,2023-07-13,Viúvo,M,10,Impressora Laser,Impressoras,Laser,HP,2938.42,2,1100
+125,2025-08-02,102,Guilherme Novais,santosbeatriz@example.net,2024-04-03,Casado,F,10,Impressora Laser,Impressoras,Laser,HP,3061.12,2,1100
+126,2025-07-31,117,Srta. Maitê Barbosa,vieiratheo@example.com,2024-07-09,Viúvo,F,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,1812.62,1,1500
+127,2025-03-22,127,Hellena Brito,theocosta@example.com,2024-09-01,Casado,F,9,SSD 1TB,Armazenamento,SSD,Kingston,597.19,1,450
+128,2025-12-15,130,Agatha Cavalcante,camargofernanda@example.net,2023-07-18,Divorciado,M,4,Monitor 27 4K,Periféricos,Monitor,LG,1653.19,1,1200
+129,2026-02-09,106,Apollo da Cunha,larissa12@example.org,2025-03-18,Solteiro,F,2,Smartphone X,Smartphones,Android,Samsung,2864.26,1,2100
+130,2025-08-24,129,Allana Moreira,brendamarques@example.net,2023-12-21,Viúvo,M,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,5707.41,3,1500
+131,2024-10-15,112,Antony Costa,rezendekevin@example.org,2024-01-08,Viúvo,M,9,SSD 1TB,Armazenamento,SSD,Kingston,1625.55,3,450
+132,2025-04-06,127,Hellena Brito,theocosta@example.com,2024-09-01,Casado,F,3,Tablet Plus,Tablets,Tablet,Apple,6745.12,2,3000
+133,2025-05-22,104,Gael Henrique da Cruz,ferreiralais@example.org,2025-01-19,Divorciado,F,2,Smartphone X,Smartphones,Android,Samsung,2857.94,1,2100
+134,2025-11-24,127,Hellena Brito,theocosta@example.com,2024-09-01,Casado,F,2,Smartphone X,Smartphones,Android,Samsung,2462.76,1,2100
+135,2026-02-01,128,Sr. Otávio Camargo,vitoria58@example.net,2025-12-20,Viúvo,F,8,Headset Pro,Áudio,Headset,HyperX,770.68,2,300
+136,2025-06-07,106,Apollo da Cunha,larissa12@example.org,2025-03-18,Solteiro,F,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,5685.72,3,1500
+137,2025-11-30,111,Lívia Azevedo,lorenacunha@example.org,2025-05-26,Divorciado,F,3,Tablet Plus,Tablets,Tablet,Apple,7501.54,2,3000
+138,2026-02-18,120,Ana Liz Duarte,dantenunes@example.net,2026-01-01,Casado,F,5,Mouse Gamer,Periféricos,Mouse,Logitech,466.77,3,120
+139,2024-10-26,113,Emanuel Camargo,kevin95@example.net,2024-05-29,Viúvo,F,3,Tablet Plus,Tablets,Tablet,Apple,3314.48,1,3000
+140,2025-02-12,130,Agatha Cavalcante,camargofernanda@example.net,2023-07-18,Divorciado,M,9,SSD 1TB,Armazenamento,SSD,Kingston,1275.82,2,450
+141,2024-04-14,129,Allana Moreira,brendamarques@example.net,2023-12-21,Viúvo,M,8,Headset Pro,Áudio,Headset,HyperX,992.97,3,300
+142,2023-11-07,103,Bianca Camargo,ncosta@example.org,2023-07-08,Solteiro,M,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,3948.02,2,1500
+143,2025-10-28,101,Murilo Leão,marcelo69@example.org,2024-08-12,Divorciado,F,1,Notebook Pro 15,Computadores,Notebook,Dell,9520.14,2,4200
+144,2025-06-17,111,Lívia Azevedo,lorenacunha@example.org,2025-05-26,Divorciado,F,5,Mouse Gamer,Periféricos,Mouse,Logitech,312.44,2,120
+145,2025-03-15,115,Enzo Marques,ogomes@example.com,2023-08-10,Casado,F,10,Impressora Laser,Impressoras,Laser,HP,1292.57,1,1100
+146,2025-07-05,108,Hadassa Caldeira,allanaaparecida@example.org,2024-01-08,Solteiro,M,3,Tablet Plus,Tablets,Tablet,Apple,6654.52,2,3000
+147,2023-08-25,121,Luiz Fernando Alves,juliana61@example.com,2023-07-13,Viúvo,M,5,Mouse Gamer,Periféricos,Mouse,Logitech,296.1,2,120
+148,2025-06-01,104,Gael Henrique da Cruz,ferreiralais@example.org,2025-01-19,Divorciado,F,3,Tablet Plus,Tablets,Tablet,Apple,11069.19,3,3000
+149,2025-08-01,101,Murilo Leão,marcelo69@example.org,2024-08-12,Divorciado,F,3,Tablet Plus,Tablets,Tablet,Apple,7080.68,2,3000
+150,2024-07-02,112,Antony Costa,rezendekevin@example.org,2024-01-08,Viúvo,M,2,Smartphone X,Smartphones,Android,Samsung,4702.68,2,2100
+151,2025-03-30,129,Allana Moreira,brendamarques@example.net,2023-12-21,Viúvo,M,5,Mouse Gamer,Periféricos,Mouse,Logitech,450.96,3,120
+152,2025-09-10,122,Josué Moraes,mendesana-cecilia@example.org,2025-05-31,Divorciado,M,6,Teclado Mecânico,Periféricos,Teclado,Razer,506.75,1,400
+153,2026-01-10,113,Emanuel Camargo,kevin95@example.net,2024-05-29,Viúvo,F,4,Monitor 27 4K,Periféricos,Monitor,LG,3483.84,2,1200
+154,2025-12-03,125,Srta. Maria Vitória Cardoso,antoniomoreira@example.com,2025-08-28,Viúvo,F,1,Notebook Pro 15,Computadores,Notebook,Dell,14471.07,3,4200
+155,2023-10-13,130,Agatha Cavalcante,camargofernanda@example.net,2023-07-18,Divorciado,M,3,Tablet Plus,Tablets,Tablet,Apple,4349.11,1,3000
+156,2026-03-01,126,Renan Monteiro,maria-fernanda02@example.net,2026-02-25,Solteiro,M,10,Impressora Laser,Impressoras,Laser,HP,1584.19,1,1100
+157,2024-12-20,110,Amanda da Cunha,fogacaemanuella@example.org,2023-06-04,Casado,F,6,Teclado Mecânico,Periféricos,Teclado,Razer,1766.67,3,400
+158,2024-10-06,107,Augusto Siqueira,cardosojoao-pedro@example.org,2024-07-22,Solteiro,F,3,Tablet Plus,Tablets,Tablet,Apple,6761.5,2,3000
+159,2025-01-04,129,Allana Moreira,brendamarques@example.net,2023-12-21,Viúvo,M,4,Monitor 27 4K,Periféricos,Monitor,LG,2675.02,2,1200
+160,2024-05-16,119,Dante Jesus,lizmartins@example.net,2023-10-04,Casado,M,10,Impressora Laser,Impressoras,Laser,HP,1304.23,1,1100
+161,2024-01-03,121,Luiz Fernando Alves,juliana61@example.com,2023-07-13,Viúvo,M,8,Headset Pro,Áudio,Headset,HyperX,819.18,2,300
+162,2025-03-10,130,Agatha Cavalcante,camargofernanda@example.net,2023-07-18,Divorciado,M,10,Impressora Laser,Impressoras,Laser,HP,4407.27,3,1100
+163,2025-06-14,109,Natália Machado,alice98@example.net,2025-06-12,Divorciado,M,9,SSD 1TB,Armazenamento,SSD,Kingston,569.63,1,450
+164,2026-01-23,128,Sr. Otávio Camargo,vitoria58@example.net,2025-12-20,Viúvo,F,8,Headset Pro,Áudio,Headset,HyperX,816.46,2,300
+165,2024-08-18,118,Sr. Gustavo Garcia,estersiqueira@example.net,2024-04-05,Viúvo,F,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,1851.63,1,1500
+166,2026-01-11,123,Pedro Miguel Câmara,alicia44@example.org,2025-12-17,Casado,M,3,Tablet Plus,Tablets,Tablet,Apple,10309.71,3,3000
+167,2023-12-06,119,Dante Jesus,lizmartins@example.net,2023-10-04,Casado,M,3,Tablet Plus,Tablets,Tablet,Apple,12779.94,3,3000
+168,2025-12-30,105,Francisco Silva,renanmarques@example.org,2025-11-18,Solteiro,M,3,Tablet Plus,Tablets,Tablet,Apple,3945.77,1,3000
+169,2025-09-15,109,Natália Machado,alice98@example.net,2025-06-12,Divorciado,M,9,SSD 1TB,Armazenamento,SSD,Kingston,1860.48,3,450
+170,2023-09-02,110,Amanda da Cunha,fogacaemanuella@example.org,2023-06-04,Casado,F,2,Smartphone X,Smartphones,Android,Samsung,5503.94,2,2100
+171,2026-01-03,123,Pedro Miguel Câmara,alicia44@example.org,2025-12-17,Casado,M,9,SSD 1TB,Armazenamento,SSD,Kingston,598.13,1,450
+172,2025-09-02,104,Gael Henrique da Cruz,ferreiralais@example.org,2025-01-19,Divorciado,F,6,Teclado Mecânico,Periféricos,Teclado,Razer,518.31,1,400
+173,2025-12-17,107,Augusto Siqueira,cardosojoao-pedro@example.org,2024-07-22,Solteiro,F,8,Headset Pro,Áudio,Headset,HyperX,1035.93,3,300
+174,2024-11-27,113,Emanuel Camargo,kevin95@example.net,2024-05-29,Viúvo,F,6,Teclado Mecânico,Periféricos,Teclado,Razer,968.34,2,400
+175,2025-04-09,106,Apollo da Cunha,larissa12@example.org,2025-03-18,Solteiro,F,9,SSD 1TB,Armazenamento,SSD,Kingston,995.4,2,450
+176,2026-02-10,128,Sr. Otávio Camargo,vitoria58@example.net,2025-12-20,Viúvo,F,8,Headset Pro,Áudio,Headset,HyperX,853.64,2,300
+177,2026-01-02,108,Hadassa Caldeira,allanaaparecida@example.org,2024-01-08,Solteiro,M,2,Smartphone X,Smartphones,Android,Samsung,3023.96,1,2100
+178,2025-12-16,105,Francisco Silva,renanmarques@example.org,2025-11-18,Solteiro,M,3,Tablet Plus,Tablets,Tablet,Apple,3688.3,1,3000
+179,2026-01-10,107,Augusto Siqueira,cardosojoao-pedro@example.org,2024-07-22,Solteiro,F,2,Smartphone X,Smartphones,Android,Samsung,8856.63,3,2100
+180,2025-06-26,117,Srta. Maitê Barbosa,vieiratheo@example.com,2024-07-09,Viúvo,F,3,Tablet Plus,Tablets,Tablet,Apple,7786.0,2,3000
+181,2026-03-03,111,Lívia Azevedo,lorenacunha@example.org,2025-05-26,Divorciado,F,8,Headset Pro,Áudio,Headset,HyperX,665.9,2,300
+182,2024-12-10,107,Augusto Siqueira,cardosojoao-pedro@example.org,2024-07-22,Solteiro,F,1,Notebook Pro 15,Computadores,Notebook,Dell,16445.49,3,4200
+183,2025-10-11,116,Henry Machado,salesmaria-flor@example.net,2025-02-10,Viúvo,M,5,Mouse Gamer,Periféricos,Mouse,Logitech,297.04,2,120
+184,2025-07-17,104,Gael Henrique da Cruz,ferreiralais@example.org,2025-01-19,Divorciado,F,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,3616.34,2,1500
+185,2025-06-03,117,Srta. Maitê Barbosa,vieiratheo@example.com,2024-07-09,Viúvo,F,10,Impressora Laser,Impressoras,Laser,HP,1489.82,1,1100
+186,2024-01-31,115,Enzo Marques,ogomes@example.com,2023-08-10,Casado,F,1,Notebook Pro 15,Computadores,Notebook,Dell,9539.06,2,4200
+187,2025-12-31,130,Agatha Cavalcante,camargofernanda@example.net,2023-07-18,Divorciado,M,1,Notebook Pro 15,Computadores,Notebook,Dell,6206.51,1,4200
+188,2025-11-08,109,Natália Machado,alice98@example.net,2025-06-12,Divorciado,M,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,3585.08,2,1500
+189,2025-12-27,109,Natália Machado,alice98@example.net,2025-06-12,Divorciado,M,1,Notebook Pro 15,Computadores,Notebook,Dell,6115.47,1,4200
+190,2025-04-12,104,Gael Henrique da Cruz,ferreiralais@example.org,2025-01-19,Divorciado,F,6,Teclado Mecânico,Periféricos,Teclado,Razer,1129.64,2,400
+191,2026-03-01,126,Renan Monteiro,maria-fernanda02@example.net,2026-02-25,Solteiro,M,3,Tablet Plus,Tablets,Tablet,Apple,7226.0,2,3000
+192,2024-10-13,124,Maitê Viana,vianajulia@example.org,2024-08-21,Viúvo,M,8,Headset Pro,Áudio,Headset,HyperX,866.14,2,300
+193,2025-06-13,106,Apollo da Cunha,larissa12@example.org,2025-03-18,Solteiro,F,6,Teclado Mecânico,Periféricos,Teclado,Razer,985.28,2,400
+194,2025-09-22,129,Allana Moreira,brendamarques@example.net,2023-12-21,Viúvo,M,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,4174.38,2,1500
+195,2026-01-09,123,Pedro Miguel Câmara,alicia44@example.org,2025-12-17,Casado,M,6,Teclado Mecânico,Periféricos,Teclado,Razer,1377.0,3,400
+196,2025-06-24,107,Augusto Siqueira,cardosojoao-pedro@example.org,2024-07-22,Solteiro,F,10,Impressora Laser,Impressoras,Laser,HP,3068.78,2,1100
+197,2024-12-08,119,Dante Jesus,lizmartins@example.net,2023-10-04,Casado,M,8,Headset Pro,Áudio,Headset,HyperX,1098.66,3,300
+198,2025-11-14,116,Henry Machado,salesmaria-flor@example.net,2025-02-10,Viúvo,M,4,Monitor 27 4K,Periféricos,Monitor,LG,1580.49,1,1200
+199,2025-05-21,114,Mariana Azevedo,lopesana-carolina@example.net,2025-01-03,Solteiro,M,10,Impressora Laser,Impressoras,Laser,HP,1506.33,1,1100
+200,2024-11-28,112,Antony Costa,rezendekevin@example.org,2024-01-08,Viúvo,M,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,2119.45,1,1500
+201,2024-06-06,108,Hadassa Caldeira,allanaaparecida@example.org,2024-01-08,Solteiro,M,4,Monitor 27 4K,Periféricos,Monitor,LG,3254.26,2,1200
+202,2025-05-26,106,Apollo da Cunha,larissa12@example.org,2025-03-18,Solteiro,F,8,Headset Pro,Áudio,Headset,HyperX,720.18,2,300
+203,2026-01-02,106,Apollo da Cunha,larissa12@example.org,2025-03-18,Solteiro,F,10,Impressora Laser,Impressoras,Laser,HP,4868.25,3,1100
+204,2025-08-20,103,Bianca Camargo,ncosta@example.org,2023-07-08,Solteiro,M,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,5530.83,3,1500
+205,2025-10-19,115,Enzo Marques,ogomes@example.com,2023-08-10,Casado,F,6,Teclado Mecânico,Periféricos,Teclado,Razer,498.39,1,400
+206,2026-02-13,111,Lívia Azevedo,lorenacunha@example.org,2025-05-26,Divorciado,F,4,Monitor 27 4K,Periféricos,Monitor,LG,2733.16,2,1200
+207,2024-12-31,130,Agatha Cavalcante,camargofernanda@example.net,2023-07-18,Divorciado,M,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,6744.93,3,1500
+208,2026-02-17,128,Sr. Otávio Camargo,vitoria58@example.net,2025-12-20,Viúvo,F,9,SSD 1TB,Armazenamento,SSD,Kingston,670.89,1,450
+209,2025-02-10,112,Antony Costa,rezendekevin@example.org,2024-01-08,Viúvo,M,10,Impressora Laser,Impressoras,Laser,HP,1222.96,1,1100
+210,2025-01-07,119,Dante Jesus,lizmartins@example.net,2023-10-04,Casado,M,8,Headset Pro,Áudio,Headset,HyperX,430.2,1,300
+211,2025-12-24,105,Francisco Silva,renanmarques@example.org,2025-11-18,Solteiro,M,10,Impressora Laser,Impressoras,Laser,HP,1242.99,1,1100
+212,2025-09-10,119,Dante Jesus,lizmartins@example.net,2023-10-04,Casado,M,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,6698.28,3,1500
+213,2025-09-23,103,Bianca Camargo,ncosta@example.org,2023-07-08,Solteiro,M,4,Monitor 27 4K,Periféricos,Monitor,LG,1502.48,1,1200
+214,2025-11-25,109,Natália Machado,alice98@example.net,2025-06-12,Divorciado,M,8,Headset Pro,Áudio,Headset,HyperX,416.24,1,300
+215,2025-11-06,125,Srta. Maria Vitória Cardoso,antoniomoreira@example.com,2025-08-28,Viúvo,F,5,Mouse Gamer,Periféricos,Mouse,Logitech,174.85,1,120
+216,2024-09-30,115,Enzo Marques,ogomes@example.com,2023-08-10,Casado,F,10,Impressora Laser,Impressoras,Laser,HP,4588.53,3,1100
+217,2025-12-08,110,Amanda da Cunha,fogacaemanuella@example.org,2023-06-04,Casado,F,2,Smartphone X,Smartphones,Android,Samsung,4921.82,2,2100
+218,2025-01-28,114,Mariana Azevedo,lopesana-carolina@example.net,2025-01-03,Solteiro,M,2,Smartphone X,Smartphones,Android,Samsung,7519.26,3,2100
+219,2026-01-13,128,Sr. Otávio Camargo,vitoria58@example.net,2025-12-20,Viúvo,F,9,SSD 1TB,Armazenamento,SSD,Kingston,661.53,1,450
+220,2025-01-09,129,Allana Moreira,brendamarques@example.net,2023-12-21,Viúvo,M,8,Headset Pro,Áudio,Headset,HyperX,446.3,1,300
+221,2025-12-25,105,Francisco Silva,renanmarques@example.org,2025-11-18,Solteiro,M,1,Notebook Pro 15,Computadores,Notebook,Dell,9897.28,2,4200
+222,2025-03-07,129,Allana Moreira,brendamarques@example.net,2023-12-21,Viúvo,M,1,Notebook Pro 15,Computadores,Notebook,Dell,16419.6,3,4200
+223,2025-06-23,101,Murilo Leão,marcelo69@example.org,2024-08-12,Divorciado,F,1,Notebook Pro 15,Computadores,Notebook,Dell,5472.84,1,4200
+224,2025-09-28,117,Srta. Maitê Barbosa,vieiratheo@example.com,2024-07-09,Viúvo,F,2,Smartphone X,Smartphones,Android,Samsung,4745.1,2,2100
+225,2025-07-05,111,Lívia Azevedo,lorenacunha@example.org,2025-05-26,Divorciado,F,2,Smartphone X,Smartphones,Android,Samsung,5891.62,2,2100
+226,2026-01-09,123,Pedro Miguel Câmara,alicia44@example.org,2025-12-17,Casado,M,5,Mouse Gamer,Periféricos,Mouse,Logitech,280.16,2,120
+227,2025-12-12,125,Srta. Maria Vitória Cardoso,antoniomoreira@example.com,2025-08-28,Viúvo,F,8,Headset Pro,Áudio,Headset,HyperX,1069.62,3,300
+228,2023-08-10,115,Enzo Marques,ogomes@example.com,2023-08-10,Casado,F,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,4039.12,2,1500
+229,2024-10-22,103,Bianca Camargo,ncosta@example.org,2023-07-08,Solteiro,M,1,Notebook Pro 15,Computadores,Notebook,Dell,12109.72,2,4200
+230,2024-10-08,119,Dante Jesus,lizmartins@example.net,2023-10-04,Casado,M,2,Smartphone X,Smartphones,Android,Samsung,8262.57,3,2100
+231,2026-03-02,120,Ana Liz Duarte,dantenunes@example.net,2026-01-01,Casado,F,4,Monitor 27 4K,Periféricos,Monitor,LG,1776.7,1,1200
+232,2026-01-20,123,Pedro Miguel Câmara,alicia44@example.org,2025-12-17,Casado,M,8,Headset Pro,Áudio,Headset,HyperX,425.45,1,300
+233,2026-02-01,130,Agatha Cavalcante,camargofernanda@example.net,2023-07-18,Divorciado,M,10,Impressora Laser,Impressoras,Laser,HP,3059.02,2,1100
+234,2024-11-20,115,Enzo Marques,ogomes@example.com,2023-08-10,Casado,F,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,3574.56,2,1500
+235,2025-07-01,111,Lívia Azevedo,lorenacunha@example.org,2025-05-26,Divorciado,F,2,Smartphone X,Smartphones,Android,Samsung,4863.1,2,2100
+236,2024-02-19,129,Allana Moreira,brendamarques@example.net,2023-12-21,Viúvo,M,2,Smartphone X,Smartphones,Android,Samsung,6171.92,2,2100
+237,2025-07-16,104,Gael Henrique da Cruz,ferreiralais@example.org,2025-01-19,Divorciado,F,5,Mouse Gamer,Periféricos,Mouse,Logitech,167.62,1,120
+238,2025-11-18,101,Murilo Leão,marcelo69@example.org,2024-08-12,Divorciado,F,3,Tablet Plus,Tablets,Tablet,Apple,12524.64,3,3000
+239,2026-02-26,126,Renan Monteiro,maria-fernanda02@example.net,2026-02-25,Solteiro,M,4,Monitor 27 4K,Periféricos,Monitor,LG,1627.4,1,1200
+240,2025-09-11,111,Lívia Azevedo,lorenacunha@example.org,2025-05-26,Divorciado,F,3,Tablet Plus,Tablets,Tablet,Apple,3328.51,1,3000
+241,2025-03-20,121,Luiz Fernando Alves,juliana61@example.com,2023-07-13,Viúvo,M,1,Notebook Pro 15,Computadores,Notebook,Dell,14211.0,3,4200
+242,2024-10-20,118,Sr. Gustavo Garcia,estersiqueira@example.net,2024-04-05,Viúvo,F,2,Smartphone X,Smartphones,Android,Samsung,6113.72,2,2100
+243,2025-12-13,129,Allana Moreira,brendamarques@example.net,2023-12-21,Viúvo,M,3,Tablet Plus,Tablets,Tablet,Apple,3550.58,1,3000
+244,2025-01-04,114,Mariana Azevedo,lopesana-carolina@example.net,2025-01-03,Solteiro,M,8,Headset Pro,Áudio,Headset,HyperX,362.75,1,300
+245,2023-08-16,121,Luiz Fernando Alves,juliana61@example.com,2023-07-13,Viúvo,M,10,Impressora Laser,Impressoras,Laser,HP,4687.59,3,1100
+246,2026-02-28,126,Renan Monteiro,maria-fernanda02@example.net,2026-02-25,Solteiro,M,9,SSD 1TB,Armazenamento,SSD,Kingston,1066.46,2,450
+247,2025-09-29,109,Natália Machado,alice98@example.net,2025-06-12,Divorciado,M,8,Headset Pro,Áudio,Headset,HyperX,890.92,2,300
+248,2025-06-11,122,Josué Moraes,mendesana-cecilia@example.org,2025-05-31,Divorciado,M,6,Teclado Mecânico,Periféricos,Teclado,Razer,1671.6,3,400
+249,2026-01-13,123,Pedro Miguel Câmara,alicia44@example.org,2025-12-17,Casado,M,6,Teclado Mecânico,Periféricos,Teclado,Razer,1111.78,2,400
+250,2025-05-19,117,Srta. Maitê Barbosa,vieiratheo@example.com,2024-07-09,Viúvo,F,2,Smartphone X,Smartphones,Android,Samsung,5065.54,2,2100
+251,2025-09-28,104,Gael Henrique da Cruz,ferreiralais@example.org,2025-01-19,Divorciado,F,8,Headset Pro,Áudio,Headset,HyperX,1275.06,3,300
+252,2026-02-26,126,Renan Monteiro,maria-fernanda02@example.net,2026-02-25,Solteiro,M,4,Monitor 27 4K,Periféricos,Monitor,LG,1720.36,1,1200
+253,2025-12-28,128,Sr. Otávio Camargo,vitoria58@example.net,2025-12-20,Viúvo,F,6,Teclado Mecânico,Periféricos,Teclado,Razer,527.62,1,400
+254,2025-12-02,106,Apollo da Cunha,larissa12@example.org,2025-03-18,Solteiro,F,4,Monitor 27 4K,Periféricos,Monitor,LG,1462.16,1,1200
+255,2025-09-08,103,Bianca Camargo,ncosta@example.org,2023-07-08,Solteiro,M,8,Headset Pro,Áudio,Headset,HyperX,1061.1,3,300
+256,2025-07-20,111,Lívia Azevedo,lorenacunha@example.org,2025-05-26,Divorciado,F,8,Headset Pro,Áudio,Headset,HyperX,1150.41,3,300
+257,2026-02-05,128,Sr. Otávio Camargo,vitoria58@example.net,2025-12-20,Viúvo,F,1,Notebook Pro 15,Computadores,Notebook,Dell,14028.66,3,4200
+258,2025-08-24,117,Srta. Maitê Barbosa,vieiratheo@example.com,2024-07-09,Viúvo,F,10,Impressora Laser,Impressoras,Laser,HP,1357.77,1,1100
+259,2025-02-26,110,Amanda da Cunha,fogacaemanuella@example.org,2023-06-04,Casado,F,4,Monitor 27 4K,Periféricos,Monitor,LG,4247.85,3,1200
+260,2026-01-27,123,Pedro Miguel Câmara,alicia44@example.org,2025-12-17,Casado,M,6,Teclado Mecânico,Periféricos,Teclado,Razer,545.34,1,400
+261,2025-05-02,115,Enzo Marques,ogomes@example.com,2023-08-10,Casado,F,2,Smartphone X,Smartphones,Android,Samsung,9068.67,3,2100
+262,2024-05-29,102,Guilherme Novais,santosbeatriz@example.net,2024-04-03,Casado,F,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,6053.1,3,1500
+263,2025-07-01,104,Gael Henrique da Cruz,ferreiralais@example.org,2025-01-19,Divorciado,F,10,Impressora Laser,Impressoras,Laser,HP,2769.52,2,1100
+264,2025-08-11,122,Josué Moraes,mendesana-cecilia@example.org,2025-05-31,Divorciado,M,6,Teclado Mecânico,Periféricos,Teclado,Razer,1138.0,2,400
+265,2024-07-23,117,Srta. Maitê Barbosa,vieiratheo@example.com,2024-07-09,Viúvo,F,9,SSD 1TB,Armazenamento,SSD,Kingston,1667.22,3,450
+266,2026-02-16,116,Henry Machado,salesmaria-flor@example.net,2025-02-10,Viúvo,M,1,Notebook Pro 15,Computadores,Notebook,Dell,18880.38,3,4200
+267,2025-09-28,110,Amanda da Cunha,fogacaemanuella@example.org,2023-06-04,Casado,F,10,Impressora Laser,Impressoras,Laser,HP,1253.8,1,1100
+268,2024-12-05,130,Agatha Cavalcante,camargofernanda@example.net,2023-07-18,Divorciado,M,10,Impressora Laser,Impressoras,Laser,HP,2627.14,2,1100
+269,2024-11-02,124,Maitê Viana,vianajulia@example.org,2024-08-21,Viúvo,M,2,Smartphone X,Smartphones,Android,Samsung,5596.1,2,2100
+270,2025-10-18,121,Luiz Fernando Alves,juliana61@example.com,2023-07-13,Viúvo,M,5,Mouse Gamer,Periféricos,Mouse,Logitech,356.9,2,120
+271,2026-01-18,120,Ana Liz Duarte,dantenunes@example.net,2026-01-01,Casado,F,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,5503.26,3,1500
+272,2025-11-21,105,Francisco Silva,renanmarques@example.org,2025-11-18,Solteiro,M,3,Tablet Plus,Tablets,Tablet,Apple,12865.47,3,3000
+273,2026-01-27,105,Francisco Silva,renanmarques@example.org,2025-11-18,Solteiro,M,6,Teclado Mecânico,Periféricos,Teclado,Razer,1342.29,3,400
+274,2026-02-14,120,Ana Liz Duarte,dantenunes@example.net,2026-01-01,Casado,F,3,Tablet Plus,Tablets,Tablet,Apple,8660.88,2,3000
+275,2025-09-21,118,Sr. Gustavo Garcia,estersiqueira@example.net,2024-04-05,Viúvo,F,10,Impressora Laser,Impressoras,Laser,HP,3057.78,2,1100
+276,2025-03-05,124,Maitê Viana,vianajulia@example.org,2024-08-21,Viúvo,M,9,SSD 1TB,Armazenamento,SSD,Kingston,621.97,1,450
+277,2026-01-14,128,Sr. Otávio Camargo,vitoria58@example.net,2025-12-20,Viúvo,F,3,Tablet Plus,Tablets,Tablet,Apple,12425.43,3,3000
+278,2026-02-26,128,Sr. Otávio Camargo,vitoria58@example.net,2025-12-20,Viúvo,F,5,Mouse Gamer,Periféricos,Mouse,Logitech,404.34,3,120
+279,2025-06-18,104,Gael Henrique da Cruz,ferreiralais@example.org,2025-01-19,Divorciado,F,6,Teclado Mecânico,Periféricos,Teclado,Razer,1532.46,3,400
+280,2026-02-12,109,Natália Machado,alice98@example.net,2025-06-12,Divorciado,M,6,Teclado Mecânico,Periféricos,Teclado,Razer,999.42,2,400
+281,2025-09-12,112,Antony Costa,rezendekevin@example.org,2024-01-08,Viúvo,M,5,Mouse Gamer,Periféricos,Mouse,Logitech,275.82,2,120
+282,2025-10-17,125,Srta. Maria Vitória Cardoso,antoniomoreira@example.com,2025-08-28,Viúvo,F,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,4472.48,2,1500
+283,2024-11-06,113,Emanuel Camargo,kevin95@example.net,2024-05-29,Viúvo,F,5,Mouse Gamer,Periféricos,Mouse,Logitech,521.46,3,120
+284,2025-03-02,104,Gael Henrique da Cruz,ferreiralais@example.org,2025-01-19,Divorciado,F,2,Smartphone X,Smartphones,Android,Samsung,6942.87,3,2100
+285,2025-07-10,127,Hellena Brito,theocosta@example.com,2024-09-01,Casado,F,6,Teclado Mecânico,Periféricos,Teclado,Razer,1189.9,2,400
+286,2026-02-10,104,Gael Henrique da Cruz,ferreiralais@example.org,2025-01-19,Divorciado,F,3,Tablet Plus,Tablets,Tablet,Apple,8883.56,2,3000
+287,2025-12-13,125,Srta. Maria Vitória Cardoso,antoniomoreira@example.com,2025-08-28,Viúvo,F,2,Smartphone X,Smartphones,Android,Samsung,7284.69,3,2100
+288,2024-04-11,130,Agatha Cavalcante,camargofernanda@example.net,2023-07-18,Divorciado,M,4,Monitor 27 4K,Periféricos,Monitor,LG,3378.18,2,1200
+289,2023-09-23,130,Agatha Cavalcante,camargofernanda@example.net,2023-07-18,Divorciado,M,3,Tablet Plus,Tablets,Tablet,Apple,11282.85,3,3000
+290,2024-08-22,124,Maitê Viana,vianajulia@example.org,2024-08-21,Viúvo,M,1,Notebook Pro 15,Computadores,Notebook,Dell,14652.27,3,4200
+291,2025-09-23,110,Amanda da Cunha,fogacaemanuella@example.org,2023-06-04,Casado,F,3,Tablet Plus,Tablets,Tablet,Apple,13400.73,3,3000
+292,2025-01-25,107,Augusto Siqueira,cardosojoao-pedro@example.org,2024-07-22,Solteiro,F,1,Notebook Pro 15,Computadores,Notebook,Dell,4697.65,1,4200
+293,2026-01-26,128,Sr. Otávio Camargo,vitoria58@example.net,2025-12-20,Viúvo,F,1,Notebook Pro 15,Computadores,Notebook,Dell,5970.99,1,4200
+294,2026-01-21,123,Pedro Miguel Câmara,alicia44@example.org,2025-12-17,Casado,M,1,Notebook Pro 15,Computadores,Notebook,Dell,11526.34,2,4200
+295,2025-06-02,119,Dante Jesus,lizmartins@example.net,2023-10-04,Casado,M,6,Teclado Mecânico,Periféricos,Teclado,Razer,893.76,2,400
+296,2025-10-20,109,Natália Machado,alice98@example.net,2025-06-12,Divorciado,M,10,Impressora Laser,Impressoras,Laser,HP,3169.62,2,1100
+297,2025-12-03,105,Francisco Silva,renanmarques@example.org,2025-11-18,Solteiro,M,6,Teclado Mecânico,Periféricos,Teclado,Razer,1618.53,3,400
+298,2026-01-11,104,Gael Henrique da Cruz,ferreiralais@example.org,2025-01-19,Divorciado,F,10,Impressora Laser,Impressoras,Laser,HP,1534.08,1,1100
+299,2025-09-28,106,Apollo da Cunha,larissa12@example.org,2025-03-18,Solteiro,F,4,Monitor 27 4K,Periféricos,Monitor,LG,2907.74,2,1200
+300,2025-07-25,124,Maitê Viana,vianajulia@example.org,2024-08-21,Viúvo,M,8,Headset Pro,Áudio,Headset,HyperX,358.6,1,300
+301,2025-12-13,117,Srta. Maitê Barbosa,vieiratheo@example.com,2024-07-09,Viúvo,F,3,Tablet Plus,Tablets,Tablet,Apple,7736.52,2,3000
+302,2026-01-20,120,Ana Liz Duarte,dantenunes@example.net,2026-01-01,Casado,F,1,Notebook Pro 15,Computadores,Notebook,Dell,17773.44,3,4200
+303,2025-07-18,122,Josué Moraes,mendesana-cecilia@example.org,2025-05-31,Divorciado,M,9,SSD 1TB,Armazenamento,SSD,Kingston,607.49,1,450
+304,2025-01-24,124,Maitê Viana,vianajulia@example.org,2024-08-21,Viúvo,M,6,Teclado Mecânico,Periféricos,Teclado,Razer,915.48,2,400
+305,2024-05-07,118,Sr. Gustavo Garcia,estersiqueira@example.net,2024-04-05,Viúvo,F,4,Monitor 27 4K,Periféricos,Monitor,LG,1614.24,1,1200
+306,2025-10-26,104,Gael Henrique da Cruz,ferreiralais@example.org,2025-01-19,Divorciado,F,3,Tablet Plus,Tablets,Tablet,Apple,7459.82,2,3000
+307,2024-12-27,124,Maitê Viana,vianajulia@example.org,2024-08-21,Viúvo,M,10,Impressora Laser,Impressoras,Laser,HP,1505.4,1,1100
+308,2025-07-06,106,Apollo da Cunha,larissa12@example.org,2025-03-18,Solteiro,F,1,Notebook Pro 15,Computadores,Notebook,Dell,9348.6,2,4200
+309,2024-08-30,124,Maitê Viana,vianajulia@example.org,2024-08-21,Viúvo,M,3,Tablet Plus,Tablets,Tablet,Apple,4150.89,1,3000
+310,2023-06-08,110,Amanda da Cunha,fogacaemanuella@example.org,2023-06-04,Casado,F,8,Headset Pro,Áudio,Headset,HyperX,1039.5,3,300
+311,2025-12-05,127,Hellena Brito,theocosta@example.com,2024-09-01,Casado,F,6,Teclado Mecânico,Periféricos,Teclado,Razer,1496.73,3,400
+312,2025-11-28,101,Murilo Leão,marcelo69@example.org,2024-08-12,Divorciado,F,8,Headset Pro,Áudio,Headset,HyperX,1167.09,3,300
+313,2023-07-31,103,Bianca Camargo,ncosta@example.org,2023-07-08,Solteiro,M,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,5892.48,3,1500
+314,2024-08-13,103,Bianca Camargo,ncosta@example.org,2023-07-08,Solteiro,M,4,Monitor 27 4K,Periféricos,Monitor,LG,1654.95,1,1200
+315,2025-10-19,117,Srta. Maitê Barbosa,vieiratheo@example.com,2024-07-09,Viúvo,F,9,SSD 1TB,Armazenamento,SSD,Kingston,995.8,2,450
+316,2026-01-07,128,Sr. Otávio Camargo,vitoria58@example.net,2025-12-20,Viúvo,F,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,5273.37,3,1500
+317,2025-02-27,107,Augusto Siqueira,cardosojoao-pedro@example.org,2024-07-22,Solteiro,F,1,Notebook Pro 15,Computadores,Notebook,Dell,5858.78,1,4200
+318,2025-11-26,111,Lívia Azevedo,lorenacunha@example.org,2025-05-26,Divorciado,F,3,Tablet Plus,Tablets,Tablet,Apple,3337.09,1,3000
+319,2024-12-03,108,Hadassa Caldeira,allanaaparecida@example.org,2024-01-08,Solteiro,M,10,Impressora Laser,Impressoras,Laser,HP,2440.34,2,1100
+320,2025-02-15,112,Antony Costa,rezendekevin@example.org,2024-01-08,Viúvo,M,4,Monitor 27 4K,Periféricos,Monitor,LG,1795.04,1,1200
+321,2026-02-24,123,Pedro Miguel Câmara,alicia44@example.org,2025-12-17,Casado,M,6,Teclado Mecânico,Periféricos,Teclado,Razer,981.64,2,400
+322,2024-12-14,124,Maitê Viana,vianajulia@example.org,2024-08-21,Viúvo,M,4,Monitor 27 4K,Periféricos,Monitor,LG,3548.78,2,1200
+323,2025-11-19,110,Amanda da Cunha,fogacaemanuella@example.org,2023-06-04,Casado,F,9,SSD 1TB,Armazenamento,SSD,Kingston,1792.29,3,450
+324,2025-03-02,121,Luiz Fernando Alves,juliana61@example.com,2023-07-13,Viúvo,M,6,Teclado Mecânico,Periféricos,Teclado,Razer,1121.1,2,400
+325,2024-12-21,110,Amanda da Cunha,fogacaemanuella@example.org,2023-06-04,Casado,F,3,Tablet Plus,Tablets,Tablet,Apple,11508.39,3,3000
+326,2025-11-03,109,Natália Machado,alice98@example.net,2025-06-12,Divorciado,M,4,Monitor 27 4K,Periféricos,Monitor,LG,4118.67,3,1200
+327,2024-11-09,110,Amanda da Cunha,fogacaemanuella@example.org,2023-06-04,Casado,F,1,Notebook Pro 15,Computadores,Notebook,Dell,5889.07,1,4200
+328,2026-02-12,111,Lívia Azevedo,lorenacunha@example.org,2025-05-26,Divorciado,F,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,3460.82,2,1500
+329,2024-01-07,130,Agatha Cavalcante,camargofernanda@example.net,2023-07-18,Divorciado,M,3,Tablet Plus,Tablets,Tablet,Apple,6691.56,2,3000
+330,2025-05-27,108,Hadassa Caldeira,allanaaparecida@example.org,2024-01-08,Solteiro,M,4,Monitor 27 4K,Periféricos,Monitor,LG,1336.2,1,1200
+331,2023-09-25,130,Agatha Cavalcante,camargofernanda@example.net,2023-07-18,Divorciado,M,4,Monitor 27 4K,Periféricos,Monitor,LG,1500.18,1,1200
+332,2025-09-15,112,Antony Costa,rezendekevin@example.org,2024-01-08,Viúvo,M,8,Headset Pro,Áudio,Headset,HyperX,874.16,2,300
+333,2026-02-14,102,Guilherme Novais,santosbeatriz@example.net,2024-04-03,Casado,F,3,Tablet Plus,Tablets,Tablet,Apple,12909.09,3,3000
+334,2025-10-11,113,Emanuel Camargo,kevin95@example.net,2024-05-29,Viúvo,F,8,Headset Pro,Áudio,Headset,HyperX,705.16,2,300
+335,2025-04-17,107,Augusto Siqueira,cardosojoao-pedro@example.org,2024-07-22,Solteiro,F,2,Smartphone X,Smartphones,Android,Samsung,3039.76,1,2100
+336,2026-02-13,125,Srta. Maria Vitória Cardoso,antoniomoreira@example.com,2025-08-28,Viúvo,F,4,Monitor 27 4K,Periféricos,Monitor,LG,5219.61,3,1200
+337,2025-07-21,111,Lívia Azevedo,lorenacunha@example.org,2025-05-26,Divorciado,F,10,Impressora Laser,Impressoras,Laser,HP,1639.86,1,1100
+338,2025-08-30,124,Maitê Viana,vianajulia@example.org,2024-08-21,Viúvo,M,5,Mouse Gamer,Periféricos,Mouse,Logitech,316.22,2,120
+339,2026-01-25,121,Luiz Fernando Alves,juliana61@example.com,2023-07-13,Viúvo,M,10,Impressora Laser,Impressoras,Laser,HP,4337.37,3,1100
+340,2024-06-10,110,Amanda da Cunha,fogacaemanuella@example.org,2023-06-04,Casado,F,2,Smartphone X,Smartphones,Android,Samsung,4959.32,2,2100
+341,2024-05-22,103,Bianca Camargo,ncosta@example.org,2023-07-08,Solteiro,M,2,Smartphone X,Smartphones,Android,Samsung,5235.64,2,2100
+342,2026-02-05,120,Ana Liz Duarte,dantenunes@example.net,2026-01-01,Casado,F,2,Smartphone X,Smartphones,Android,Samsung,7273.47,3,2100
+343,2025-10-04,113,Emanuel Camargo,kevin95@example.net,2024-05-29,Viúvo,F,1,Notebook Pro 15,Computadores,Notebook,Dell,9613.9,2,4200
+344,2026-01-24,111,Lívia Azevedo,lorenacunha@example.org,2025-05-26,Divorciado,F,8,Headset Pro,Áudio,Headset,HyperX,402.19,1,300
+345,2026-02-26,126,Renan Monteiro,maria-fernanda02@example.net,2026-02-25,Solteiro,M,3,Tablet Plus,Tablets,Tablet,Apple,10663.11,3,3000
+346,2025-10-20,108,Hadassa Caldeira,allanaaparecida@example.org,2024-01-08,Solteiro,M,6,Teclado Mecânico,Periféricos,Teclado,Razer,440.29,1,400
+347,2024-11-17,129,Allana Moreira,brendamarques@example.net,2023-12-21,Viúvo,M,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,1751.76,1,1500
+348,2025-08-20,109,Natália Machado,alice98@example.net,2025-06-12,Divorciado,M,4,Monitor 27 4K,Periféricos,Monitor,LG,3999.0,3,1200
+349,2025-11-12,125,Srta. Maria Vitória Cardoso,antoniomoreira@example.com,2025-08-28,Viúvo,F,8,Headset Pro,Áudio,Headset,HyperX,339.86,1,300
+350,2025-09-02,129,Allana Moreira,brendamarques@example.net,2023-12-21,Viúvo,M,1,Notebook Pro 15,Computadores,Notebook,Dell,11819.38,2,4200
+351,2025-12-30,101,Murilo Leão,marcelo69@example.org,2024-08-12,Divorciado,F,3,Tablet Plus,Tablets,Tablet,Apple,11685.21,3,3000
+352,2025-12-25,122,Josué Moraes,mendesana-cecilia@example.org,2025-05-31,Divorciado,M,2,Smartphone X,Smartphones,Android,Samsung,9234.0,3,2100
+353,2026-01-25,111,Lívia Azevedo,lorenacunha@example.org,2025-05-26,Divorciado,F,8,Headset Pro,Áudio,Headset,HyperX,787.62,2,300
+354,2026-01-26,114,Mariana Azevedo,lopesana-carolina@example.net,2025-01-03,Solteiro,M,5,Mouse Gamer,Periféricos,Mouse,Logitech,145.25,1,120
+355,2026-02-20,120,Ana Liz Duarte,dantenunes@example.net,2026-01-01,Casado,F,3,Tablet Plus,Tablets,Tablet,Apple,10848.75,3,3000
+356,2026-02-11,123,Pedro Miguel Câmara,alicia44@example.org,2025-12-17,Casado,M,6,Teclado Mecânico,Periféricos,Teclado,Razer,586.7,1,400
+357,2025-04-20,119,Dante Jesus,lizmartins@example.net,2023-10-04,Casado,M,9,SSD 1TB,Armazenamento,SSD,Kingston,1529.07,3,450
+358,2025-10-10,125,Srta. Maria Vitória Cardoso,antoniomoreira@example.com,2025-08-28,Viúvo,F,5,Mouse Gamer,Periféricos,Mouse,Logitech,159.73,1,120
+359,2025-05-23,102,Guilherme Novais,santosbeatriz@example.net,2024-04-03,Casado,F,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,6144.84,3,1500
+360,2025-08-15,116,Henry Machado,salesmaria-flor@example.net,2025-02-10,Viúvo,M,5,Mouse Gamer,Periféricos,Mouse,Logitech,147.94,1,120
+361,2025-10-09,127,Hellena Brito,theocosta@example.com,2024-09-01,Casado,F,1,Notebook Pro 15,Computadores,Notebook,Dell,15078.9,3,4200
+362,2025-08-17,103,Bianca Camargo,ncosta@example.org,2023-07-08,Solteiro,M,4,Monitor 27 4K,Periféricos,Monitor,LG,1589.2,1,1200
+363,2025-12-15,127,Hellena Brito,theocosta@example.com,2024-09-01,Casado,F,5,Mouse Gamer,Periféricos,Mouse,Logitech,480.6,3,120
+364,2024-06-23,108,Hadassa Caldeira,allanaaparecida@example.org,2024-01-08,Solteiro,M,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,5095.38,3,1500
+365,2024-12-15,124,Maitê Viana,vianajulia@example.org,2024-08-21,Viúvo,M,6,Teclado Mecânico,Periféricos,Teclado,Razer,1110.78,2,400
+366,2025-10-11,110,Amanda da Cunha,fogacaemanuella@example.org,2023-06-04,Casado,F,9,SSD 1TB,Armazenamento,SSD,Kingston,672.27,1,450
+367,2025-09-20,130,Agatha Cavalcante,camargofernanda@example.net,2023-07-18,Divorciado,M,8,Headset Pro,Áudio,Headset,HyperX,735.26,2,300
+368,2025-02-11,115,Enzo Marques,ogomes@example.com,2023-08-10,Casado,F,2,Smartphone X,Smartphones,Android,Samsung,5903.44,2,2100
+369,2026-02-08,116,Henry Machado,salesmaria-flor@example.net,2025-02-10,Viúvo,M,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,5212.83,3,1500
+370,2024-02-17,130,Agatha Cavalcante,camargofernanda@example.net,2023-07-18,Divorciado,M,4,Monitor 27 4K,Periféricos,Monitor,LG,5275.44,3,1200
+371,2025-10-20,127,Hellena Brito,theocosta@example.com,2024-09-01,Casado,F,2,Smartphone X,Smartphones,Android,Samsung,6253.14,2,2100
+372,2025-05-11,117,Srta. Maitê Barbosa,vieiratheo@example.com,2024-07-09,Viúvo,F,8,Headset Pro,Áudio,Headset,HyperX,1314.54,3,300
+373,2025-05-17,104,Gael Henrique da Cruz,ferreiralais@example.org,2025-01-19,Divorciado,F,3,Tablet Plus,Tablets,Tablet,Apple,10461.99,3,3000
+374,2024-10-14,117,Srta. Maitê Barbosa,vieiratheo@example.com,2024-07-09,Viúvo,F,3,Tablet Plus,Tablets,Tablet,Apple,10843.26,3,3000
+375,2025-09-12,127,Hellena Brito,theocosta@example.com,2024-09-01,Casado,F,3,Tablet Plus,Tablets,Tablet,Apple,10485.27,3,3000
+376,2026-02-15,117,Srta. Maitê Barbosa,vieiratheo@example.com,2024-07-09,Viúvo,F,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,5831.52,3,1500
+377,2025-07-28,119,Dante Jesus,lizmartins@example.net,2023-10-04,Casado,M,8,Headset Pro,Áudio,Headset,HyperX,778.98,2,300
+378,2025-12-05,104,Gael Henrique da Cruz,ferreiralais@example.org,2025-01-19,Divorciado,F,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,5440.89,3,1500
+379,2025-12-03,106,Apollo da Cunha,larissa12@example.org,2025-03-18,Solteiro,F,8,Headset Pro,Áudio,Headset,HyperX,1059.03,3,300
+380,2026-02-23,105,Francisco Silva,renanmarques@example.org,2025-11-18,Solteiro,M,2,Smartphone X,Smartphones,Android,Samsung,5287.72,2,2100
+381,2025-08-02,114,Mariana Azevedo,lopesana-carolina@example.net,2025-01-03,Solteiro,M,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,3591.14,2,1500
+382,2024-05-25,130,Agatha Cavalcante,camargofernanda@example.net,2023-07-18,Divorciado,M,3,Tablet Plus,Tablets,Tablet,Apple,11369.31,3,3000
+383,2024-09-05,124,Maitê Viana,vianajulia@example.org,2024-08-21,Viúvo,M,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,1824.62,1,1500
+384,2025-02-17,104,Gael Henrique da Cruz,ferreiralais@example.org,2025-01-19,Divorciado,F,5,Mouse Gamer,Periféricos,Mouse,Logitech,449.67,3,120
+385,2025-12-26,122,Josué Moraes,mendesana-cecilia@example.org,2025-05-31,Divorciado,M,5,Mouse Gamer,Periféricos,Mouse,Logitech,519.57,3,120
+386,2026-02-26,126,Renan Monteiro,maria-fernanda02@example.net,2026-02-25,Solteiro,M,5,Mouse Gamer,Periféricos,Mouse,Logitech,412.14,3,120
+387,2026-01-23,119,Dante Jesus,lizmartins@example.net,2023-10-04,Casado,M,8,Headset Pro,Áudio,Headset,HyperX,1027.86,3,300
+388,2025-10-01,101,Murilo Leão,marcelo69@example.org,2024-08-12,Divorciado,F,10,Impressora Laser,Impressoras,Laser,HP,3694.11,3,1100
+389,2025-04-16,129,Allana Moreira,brendamarques@example.net,2023-12-21,Viúvo,M,4,Monitor 27 4K,Periféricos,Monitor,LG,1474.6,1,1200
+390,2026-03-03,128,Sr. Otávio Camargo,vitoria58@example.net,2025-12-20,Viúvo,F,2,Smartphone X,Smartphones,Android,Samsung,4738.76,2,2100
+391,2025-08-28,111,Lívia Azevedo,lorenacunha@example.org,2025-05-26,Divorciado,F,4,Monitor 27 4K,Periféricos,Monitor,LG,1621.62,1,1200
+392,2025-12-25,116,Henry Machado,salesmaria-flor@example.net,2025-02-10,Viúvo,M,8,Headset Pro,Áudio,Headset,HyperX,1187.22,3,300
+393,2025-12-07,129,Allana Moreira,brendamarques@example.net,2023-12-21,Viúvo,M,9,SSD 1TB,Armazenamento,SSD,Kingston,1076.62,2,450
+394,2024-05-07,129,Allana Moreira,brendamarques@example.net,2023-12-21,Viúvo,M,9,SSD 1TB,Armazenamento,SSD,Kingston,538.54,1,450
+395,2025-12-20,114,Mariana Azevedo,lopesana-carolina@example.net,2025-01-03,Solteiro,M,5,Mouse Gamer,Periféricos,Mouse,Logitech,299.3,2,120
+396,2025-12-21,128,Sr. Otávio Camargo,vitoria58@example.net,2025-12-20,Viúvo,F,4,Monitor 27 4K,Periféricos,Monitor,LG,1534.82,1,1200
+397,2025-11-06,101,Murilo Leão,marcelo69@example.org,2024-08-12,Divorciado,F,1,Notebook Pro 15,Computadores,Notebook,Dell,17580.87,3,4200
+398,2025-10-23,111,Lívia Azevedo,lorenacunha@example.org,2025-05-26,Divorciado,F,6,Teclado Mecânico,Periféricos,Teclado,Razer,509.23,1,400
+399,2026-03-01,126,Renan Monteiro,maria-fernanda02@example.net,2026-02-25,Solteiro,M,9,SSD 1TB,Armazenamento,SSD,Kingston,605.59,1,450
+400,2024-09-14,117,Srta. Maitê Barbosa,vieiratheo@example.com,2024-07-09,Viúvo,F,10,Impressora Laser,Impressoras,Laser,HP,1358.45,1,1100
+401,2026-02-08,122,Josué Moraes,mendesana-cecilia@example.org,2025-05-31,Divorciado,M,4,Monitor 27 4K,Periféricos,Monitor,LG,2658.78,2,1200
+402,2026-02-07,128,Sr. Otávio Camargo,vitoria58@example.net,2025-12-20,Viúvo,F,4,Monitor 27 4K,Periféricos,Monitor,LG,4375.95,3,1200
+403,2024-05-17,112,Antony Costa,rezendekevin@example.org,2024-01-08,Viúvo,M,8,Headset Pro,Áudio,Headset,HyperX,1258.74,3,300
+404,2026-02-24,103,Bianca Camargo,ncosta@example.org,2023-07-08,Solteiro,M,6,Teclado Mecânico,Periféricos,Teclado,Razer,1380.0,3,400
+405,2025-10-11,111,Lívia Azevedo,lorenacunha@example.org,2025-05-26,Divorciado,F,8,Headset Pro,Áudio,Headset,HyperX,1061.13,3,300
+406,2025-08-03,104,Gael Henrique da Cruz,ferreiralais@example.org,2025-01-19,Divorciado,F,6,Teclado Mecânico,Periféricos,Teclado,Razer,1441.35,3,400
+407,2026-02-25,126,Renan Monteiro,maria-fernanda02@example.net,2026-02-25,Solteiro,M,4,Monitor 27 4K,Periféricos,Monitor,LG,1777.89,1,1200
+408,2025-12-21,128,Sr. Otávio Camargo,vitoria58@example.net,2025-12-20,Viúvo,F,8,Headset Pro,Áudio,Headset,HyperX,1248.96,3,300
+409,2025-08-19,119,Dante Jesus,lizmartins@example.net,2023-10-04,Casado,M,8,Headset Pro,Áudio,Headset,HyperX,1135.5,3,300
+410,2024-10-25,110,Amanda da Cunha,fogacaemanuella@example.org,2023-06-04,Casado,F,3,Tablet Plus,Tablets,Tablet,Apple,8226.92,2,3000
+411,2025-04-22,127,Hellena Brito,theocosta@example.com,2024-09-01,Casado,F,6,Teclado Mecânico,Periféricos,Teclado,Razer,1560.51,3,400
+412,2026-02-22,128,Sr. Otávio Camargo,vitoria58@example.net,2025-12-20,Viúvo,F,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,3479.46,2,1500
+413,2026-01-16,120,Ana Liz Duarte,dantenunes@example.net,2026-01-01,Casado,F,6,Teclado Mecânico,Periféricos,Teclado,Razer,1144.46,2,400
+414,2026-01-01,124,Maitê Viana,vianajulia@example.org,2024-08-21,Viúvo,M,5,Mouse Gamer,Periféricos,Mouse,Logitech,501.15,3,120
+415,2025-03-31,104,Gael Henrique da Cruz,ferreiralais@example.org,2025-01-19,Divorciado,F,6,Teclado Mecânico,Periféricos,Teclado,Razer,447.55,1,400
+416,2025-11-24,122,Josué Moraes,mendesana-cecilia@example.org,2025-05-31,Divorciado,M,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,1933.65,1,1500
+417,2025-07-09,129,Allana Moreira,brendamarques@example.net,2023-12-21,Viúvo,M,3,Tablet Plus,Tablets,Tablet,Apple,3467.34,1,3000
+418,2026-01-19,109,Natália Machado,alice98@example.net,2025-06-12,Divorciado,M,5,Mouse Gamer,Periféricos,Mouse,Logitech,518.7,3,120
+419,2024-10-06,127,Hellena Brito,theocosta@example.com,2024-09-01,Casado,F,5,Mouse Gamer,Periféricos,Mouse,Logitech,440.85,3,120
+420,2025-12-10,103,Bianca Camargo,ncosta@example.org,2023-07-08,Solteiro,M,2,Smartphone X,Smartphones,Android,Samsung,7024.41,3,2100
+421,2025-11-19,111,Lívia Azevedo,lorenacunha@example.org,2025-05-26,Divorciado,F,2,Smartphone X,Smartphones,Android,Samsung,3042.72,1,2100
+422,2025-07-04,117,Srta. Maitê Barbosa,vieiratheo@example.com,2024-07-09,Viúvo,F,3,Tablet Plus,Tablets,Tablet,Apple,7470.5,2,3000
+423,2025-07-08,119,Dante Jesus,lizmartins@example.net,2023-10-04,Casado,M,8,Headset Pro,Áudio,Headset,HyperX,420.52,1,300
+424,2025-11-27,103,Bianca Camargo,ncosta@example.org,2023-07-08,Solteiro,M,6,Teclado Mecânico,Periféricos,Teclado,Razer,493.88,1,400
+425,2025-12-22,109,Natália Machado,alice98@example.net,2025-06-12,Divorciado,M,5,Mouse Gamer,Periféricos,Mouse,Logitech,171.54,1,120
+426,2026-02-28,112,Antony Costa,rezendekevin@example.org,2024-01-08,Viúvo,M,3,Tablet Plus,Tablets,Tablet,Apple,7915.3,2,3000
+427,2024-03-24,129,Allana Moreira,brendamarques@example.net,2023-12-21,Viúvo,M,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,3461.36,2,1500
+428,2024-12-09,124,Maitê Viana,vianajulia@example.org,2024-08-21,Viúvo,M,4,Monitor 27 4K,Periféricos,Monitor,LG,3476.46,2,1200
+429,2026-02-24,120,Ana Liz Duarte,dantenunes@example.net,2026-01-01,Casado,F,6,Teclado Mecânico,Periféricos,Teclado,Razer,978.12,2,400
+430,2026-01-24,122,Josué Moraes,mendesana-cecilia@example.org,2025-05-31,Divorciado,M,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,1827.01,1,1500
+431,2024-05-05,112,Antony Costa,rezendekevin@example.org,2024-01-08,Viúvo,M,9,SSD 1TB,Armazenamento,SSD,Kingston,1143.46,2,450
+432,2026-01-20,114,Mariana Azevedo,lopesana-carolina@example.net,2025-01-03,Solteiro,M,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,5675.85,3,1500
+433,2026-01-13,120,Ana Liz Duarte,dantenunes@example.net,2026-01-01,Casado,F,1,Notebook Pro 15,Computadores,Notebook,Dell,5900.46,1,4200
+434,2025-12-08,116,Henry Machado,salesmaria-flor@example.net,2025-02-10,Viúvo,M,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,1674.54,1,1500
+435,2025-06-02,122,Josué Moraes,mendesana-cecilia@example.org,2025-05-31,Divorciado,M,1,Notebook Pro 15,Computadores,Notebook,Dell,14603.79,3,4200
+436,2024-09-02,108,Hadassa Caldeira,allanaaparecida@example.org,2024-01-08,Solteiro,M,4,Monitor 27 4K,Periféricos,Monitor,LG,1521.76,1,1200
+437,2025-12-24,105,Francisco Silva,renanmarques@example.org,2025-11-18,Solteiro,M,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,5498.46,3,1500
+438,2025-04-24,104,Gael Henrique da Cruz,ferreiralais@example.org,2025-01-19,Divorciado,F,4,Monitor 27 4K,Periféricos,Monitor,LG,1675.39,1,1200
+439,2025-09-22,117,Srta. Maitê Barbosa,vieiratheo@example.com,2024-07-09,Viúvo,F,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,6194.82,3,1500
+440,2024-09-05,107,Augusto Siqueira,cardosojoao-pedro@example.org,2024-07-22,Solteiro,F,4,Monitor 27 4K,Periféricos,Monitor,LG,1563.51,1,1200
+441,2025-12-29,128,Sr. Otávio Camargo,vitoria58@example.net,2025-12-20,Viúvo,F,4,Monitor 27 4K,Periféricos,Monitor,LG,3396.64,2,1200
+442,2024-05-19,118,Sr. Gustavo Garcia,estersiqueira@example.net,2024-04-05,Viúvo,F,8,Headset Pro,Áudio,Headset,HyperX,1018.5,3,300
+443,2026-02-05,108,Hadassa Caldeira,allanaaparecida@example.org,2024-01-08,Solteiro,M,4,Monitor 27 4K,Periféricos,Monitor,LG,1468.22,1,1200
+444,2025-02-28,114,Mariana Azevedo,lopesana-carolina@example.net,2025-01-03,Solteiro,M,5,Mouse Gamer,Periféricos,Mouse,Logitech,346.02,2,120
+445,2024-11-03,129,Allana Moreira,brendamarques@example.net,2023-12-21,Viúvo,M,6,Teclado Mecânico,Periféricos,Teclado,Razer,495.72,1,400
+446,2025-10-12,107,Augusto Siqueira,cardosojoao-pedro@example.org,2024-07-22,Solteiro,F,3,Tablet Plus,Tablets,Tablet,Apple,12508.41,3,3000
+447,2024-12-04,124,Maitê Viana,vianajulia@example.org,2024-08-21,Viúvo,M,8,Headset Pro,Áudio,Headset,HyperX,331.79,1,300
+448,2025-07-29,129,Allana Moreira,brendamarques@example.net,2023-12-21,Viúvo,M,5,Mouse Gamer,Periféricos,Mouse,Logitech,278.78,2,120
+449,2025-01-22,124,Maitê Viana,vianajulia@example.org,2024-08-21,Viúvo,M,10,Impressora Laser,Impressoras,Laser,HP,2528.08,2,1100
+450,2026-02-21,127,Hellena Brito,theocosta@example.com,2024-09-01,Casado,F,2,Smartphone X,Smartphones,Android,Samsung,4625.9,2,2100
+451,2025-09-03,109,Natália Machado,alice98@example.net,2025-06-12,Divorciado,M,10,Impressora Laser,Impressoras,Laser,HP,3092.94,2,1100
+452,2024-08-30,129,Allana Moreira,brendamarques@example.net,2023-12-21,Viúvo,M,10,Impressora Laser,Impressoras,Laser,HP,1565.98,1,1100
+453,2025-03-21,118,Sr. Gustavo Garcia,estersiqueira@example.net,2024-04-05,Viúvo,F,5,Mouse Gamer,Periféricos,Mouse,Logitech,134.21,1,120
+454,2025-07-25,109,Natália Machado,alice98@example.net,2025-06-12,Divorciado,M,6,Teclado Mecânico,Periféricos,Teclado,Razer,512.52,1,400
+455,2026-01-23,118,Sr. Gustavo Garcia,estersiqueira@example.net,2024-04-05,Viúvo,F,10,Impressora Laser,Impressoras,Laser,HP,3881.07,3,1100
+456,2026-02-05,109,Natália Machado,alice98@example.net,2025-06-12,Divorciado,M,4,Monitor 27 4K,Periféricos,Monitor,LG,2962.66,2,1200
+457,2024-05-03,118,Sr. Gustavo Garcia,estersiqueira@example.net,2024-04-05,Viúvo,F,1,Notebook Pro 15,Computadores,Notebook,Dell,18768.78,3,4200
+458,2025-05-25,124,Maitê Viana,vianajulia@example.org,2024-08-21,Viúvo,M,9,SSD 1TB,Armazenamento,SSD,Kingston,1075.1,2,450
+459,2025-12-29,123,Pedro Miguel Câmara,alicia44@example.org,2025-12-17,Casado,M,4,Monitor 27 4K,Periféricos,Monitor,LG,1420.88,1,1200
+460,2025-05-16,130,Agatha Cavalcante,camargofernanda@example.net,2023-07-18,Divorciado,M,2,Smartphone X,Smartphones,Android,Samsung,3026.59,1,2100
+461,2026-01-20,105,Francisco Silva,renanmarques@example.org,2025-11-18,Solteiro,M,6,Teclado Mecânico,Periféricos,Teclado,Razer,1608.03,3,400
+462,2025-03-29,103,Bianca Camargo,ncosta@example.org,2023-07-08,Solteiro,M,6,Teclado Mecânico,Periféricos,Teclado,Razer,994.0,2,400
+463,2025-03-12,107,Augusto Siqueira,cardosojoao-pedro@example.org,2024-07-22,Solteiro,F,4,Monitor 27 4K,Periféricos,Monitor,LG,4496.49,3,1200
+464,2023-08-25,115,Enzo Marques,ogomes@example.com,2023-08-10,Casado,F,4,Monitor 27 4K,Periféricos,Monitor,LG,5343.36,3,1200
+465,2025-05-10,130,Agatha Cavalcante,camargofernanda@example.net,2023-07-18,Divorciado,M,1,Notebook Pro 15,Computadores,Notebook,Dell,5838.0,1,4200
+466,2025-04-27,104,Gael Henrique da Cruz,ferreiralais@example.org,2025-01-19,Divorciado,F,4,Monitor 27 4K,Periféricos,Monitor,LG,3440.78,2,1200
+467,2024-04-04,102,Guilherme Novais,santosbeatriz@example.net,2024-04-03,Casado,F,10,Impressora Laser,Impressoras,Laser,HP,1446.32,1,1100
+468,2023-08-15,115,Enzo Marques,ogomes@example.com,2023-08-10,Casado,F,2,Smartphone X,Smartphones,Android,Samsung,5163.56,2,2100
+469,2025-10-20,125,Srta. Maria Vitória Cardoso,antoniomoreira@example.com,2025-08-28,Viúvo,F,1,Notebook Pro 15,Computadores,Notebook,Dell,11016.16,2,4200
+470,2026-01-29,128,Sr. Otávio Camargo,vitoria58@example.net,2025-12-20,Viúvo,F,10,Impressora Laser,Impressoras,Laser,HP,4604.94,3,1100
+471,2026-02-25,126,Renan Monteiro,maria-fernanda02@example.net,2026-02-25,Solteiro,M,3,Tablet Plus,Tablets,Tablet,Apple,10460.61,3,3000
+472,2026-02-03,120,Ana Liz Duarte,dantenunes@example.net,2026-01-01,Casado,F,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,4017.42,2,1500
+473,2024-03-30,110,Amanda da Cunha,fogacaemanuella@example.org,2023-06-04,Casado,F,4,Monitor 27 4K,Periféricos,Monitor,LG,2962.92,2,1200
+474,2024-09-29,121,Luiz Fernando Alves,juliana61@example.com,2023-07-13,Viúvo,M,5,Mouse Gamer,Periféricos,Mouse,Logitech,473.73,3,120
+475,2025-02-11,104,Gael Henrique da Cruz,ferreiralais@example.org,2025-01-19,Divorciado,F,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,2025.93,1,1500
+476,2026-01-30,125,Srta. Maria Vitória Cardoso,antoniomoreira@example.com,2025-08-28,Viúvo,F,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,1657.17,1,1500
+477,2025-07-18,104,Gael Henrique da Cruz,ferreiralais@example.org,2025-01-19,Divorciado,F,1,Notebook Pro 15,Computadores,Notebook,Dell,10206.14,2,4200
+478,2025-10-26,112,Antony Costa,rezendekevin@example.org,2024-01-08,Viúvo,M,4,Monitor 27 4K,Periféricos,Monitor,LG,3226.72,2,1200
+479,2026-02-13,128,Sr. Otávio Camargo,vitoria58@example.net,2025-12-20,Viúvo,F,6,Teclado Mecânico,Periféricos,Teclado,Razer,1507.92,3,400
+480,2025-06-23,127,Hellena Brito,theocosta@example.com,2024-09-01,Casado,F,6,Teclado Mecânico,Periféricos,Teclado,Razer,1036.08,2,400
+481,2026-02-04,129,Allana Moreira,brendamarques@example.net,2023-12-21,Viúvo,M,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,6197.01,3,1500
+482,2026-01-01,123,Pedro Miguel Câmara,alicia44@example.org,2025-12-17,Casado,M,8,Headset Pro,Áudio,Headset,HyperX,1215.96,3,300
+483,2024-09-04,130,Agatha Cavalcante,camargofernanda@example.net,2023-07-18,Divorciado,M,7,Cadeira Gamer,Móveis,Cadeira,DXRacer,1988.47,1,1500
+484,2025-12-01,124,Maitê Viana,vianajulia@example.org,2024-08-21,Viúvo,M,5,Mouse Gamer,Periféricos,Mouse,Logitech,146.5,1,120
+485,2025-11-28,121,Luiz Fernando Alves,juliana61@example.com,2023-07-13,Viúvo,M,8,Headset Pro,Áudio,Headset,HyperX,1101.21,3,300
+486,2026-02-25,122,Josué Moraes,mendesana-cecilia@example.org,2025-05-31,Divorciado,M,10,Impressora Laser,Impressoras,Laser,HP,2516.82,2,1100
+487,2025-06-26,117,Srta. Maitê Barbosa,vieiratheo@example.com,2024-07-09,Viúvo,F,3,Tablet Plus,Tablets,Tablet,Apple,11779.77,3,3000
+488,2024-09-24,119,Dante Jesus,lizmartins@example.net,2023-10-04,Casado,M,4,Monitor 27 4K,Periféricos,Monitor,LG,1405.86,1,1200
+489,2024-11-06,113,Emanuel Camargo,kevin95@example.net,2024-05-29,Viúvo,F,6,Teclado Mecânico,Periféricos,Teclado,Razer,1404.15,3,400
+490,2025-11-26,112,Antony Costa,rezendekevin@example.org,2024-01-08,Viúvo,M,4,Monitor 27 4K,Periféricos,Monitor,LG,3245.04,2,1200
+491,2023-09-08,110,Amanda da Cunha,fogacaemanuella@example.org,2023-06-04,Casado,F,3,Tablet Plus,Tablets,Tablet,Apple,8727.02,2,3000
+492,2025-02-15,114,Mariana Azevedo,lopesana-carolina@example.net,2025-01-03,Solteiro,M,10,Impressora Laser,Impressoras,Laser,HP,3143.34,2,1100
+493,2024-10-29,130,Agatha Cavalcante,camargofernanda@example.net,2023-07-18,Divorciado,M,8,Headset Pro,Áudio,Headset,HyperX,356.52,1,300
+494,2024-07-10,113,Emanuel Camargo,kevin95@example.net,2024-05-29,Viúvo,F,9,SSD 1TB,Armazenamento,SSD,Kingston,1336.34,2,450
+495,2025-11-06,122,Josué Moraes,mendesana-cecilia@example.org,2025-05-31,Divorciado,M,1,Notebook Pro 15,Computadores,Notebook,Dell,5646.66,1,4200
+496,2024-04-10,121,Luiz Fernando Alves,juliana61@example.com,2023-07-13,Viúvo,M,8,Headset Pro,Áudio,Headset,HyperX,1321.26,3,300
+497,2024-10-13,110,Amanda da Cunha,fogacaemanuella@example.org,2023-06-04,Casado,F,9,SSD 1TB,Armazenamento,SSD,Kingston,1610.37,3,450
+498,2025-06-17,121,Luiz Fernando Alves,juliana61@example.com,2023-07-13,Viúvo,M,9,SSD 1TB,Armazenamento,SSD,Kingston,1776.81,3,450
+499,2025-07-16,115,Enzo Marques,ogomes@example.com,2023-08-10,Casado,F,8,Headset Pro,Áudio,Headset,HyperX,1069.41,3,300
+500,2025-10-17,101,Murilo Leão,marcelo69@example.org,2024-08-12,Divorciado,F,8,Headset Pro,Áudio,Headset,HyperX,342.41,1,300

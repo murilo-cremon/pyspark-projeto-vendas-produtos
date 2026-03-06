@@ -5,11 +5,13 @@ def struct_type_definition() -> StructType:
     schema_landing_zone = StructType([
         StructField('id_pedido', StringType(), True),
         StructField('data_pedido', StringType(), True),
+        StructField('id_cliente', StringType(), True),
         StructField('nome_cliente', StringType(), True),
         StructField('email_cliente', StringType(), True),
         StructField('data_cadastro_cliente', StringType(), True),
         StructField('estado_civil_cliente', StringType(), True),
         StructField('genero_cliente', StringType(), True),
+        StructField('id_produto', StringType(), True),
         StructField('nome_produto', StringType(), True),
         StructField('categoria_produto', StringType(), True),
         StructField('subcategoria_produto', StringType(), True),
