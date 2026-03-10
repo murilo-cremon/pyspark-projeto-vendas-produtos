@@ -1,0 +1,11 @@
+sk_produto,id_produto,produto,categoria,subcategoria,fabricante,custo
+1,1,Notebook Pro 15,Computadores,Notebook,Dell,4200.00
+2,2,Smartphone X,Smartphones,Android,Samsung,2100.00
+3,3,Tablet Plus,Tablets,Tablet,Apple,3000.00
+4,4,Monitor 27 4K,Periféricos,Monitor,Lg,1200.00
+5,5,Mouse Gamer,Periféricos,Mouse,Logitech,120.00
+6,6,Teclado Mecânico,Periféricos,Teclado,Razer,400.00
+7,7,Cadeira Gamer,Móveis,Cadeira,Dxracer,1500.00
+8,8,Headset Pro,Áudio,Headset,Hyperx,300.00
+9,9,SSD 1TB,Armazenamento,SSD,Kingston,450.00
+10,10,Impressora Laser,Impressoras,Laser,Hp,1100.00
