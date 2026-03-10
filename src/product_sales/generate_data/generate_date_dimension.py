@@ -26,7 +26,7 @@ dim_data = dim_data[
         'semestre'
     ]
 ]
-csv_file_path = '../../../medallion_architecture/trusted_zone/date-dimension-csv/dim_data.csv'
-parquet_file_path = '../../../medallion_architecture/trusted_zone/date-dimension-parquet/dim_data.parquet'
+csv_file_path = '../../../medallion_architecture/refined_zone/date-dimension-csv/dim_data.csv'
+parquet_file_path = '../../../medallion_architecture/refined_zone/date-dimension-parquet/dim_data.parquet'
 dim_data.to_csv(csv_file_path, index=False)
 dim_data.to_parquet(parquet_file_path, engine='pyarrow', index=False)
