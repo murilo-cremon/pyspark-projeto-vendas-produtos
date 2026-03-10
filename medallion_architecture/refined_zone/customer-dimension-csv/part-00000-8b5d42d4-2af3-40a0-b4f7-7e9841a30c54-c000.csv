@@ -1,0 +1,31 @@
+sk_cliente,id_cliente,nome,email,dt_cadastro,tipo_estado_civil,genero
+1,101,Murilo Leão,marcelo69@example.org,2024-01-12,Divorciado,Feminino
+2,102,Guilherme Novais,santosbeatriz@example.net,2024-01-03,Casado,Feminino
+3,103,Bianca Camargo,ncosta@example.org,2023-01-08,Solteiro,Masculino
+4,104,Gael Henrique Da Cruz,ferreiralais@example.org,2025-01-19,Divorciado,Feminino
+5,105,Francisco Silva,renanmarques@example.org,2025-01-18,Solteiro,Masculino
+6,106,Apollo Da Cunha,larissa12@example.org,2025-01-18,Solteiro,Feminino
+7,107,Augusto Siqueira,cardosojoao-pedro@example.org,2024-01-22,Solteiro,Feminino
+8,108,Hadassa Caldeira,allanaaparecida@example.org,2024-01-08,Solteiro,Masculino
+9,109,Natália Machado,alice98@example.net,2025-01-12,Divorciado,Masculino
+10,110,Amanda Da Cunha,fogacaemanuella@example.org,2023-01-04,Casado,Feminino
+11,111,Lívia Azevedo,lorenacunha@example.org,2025-01-26,Divorciado,Feminino
+12,112,Antony Costa,rezendekevin@example.org,2024-01-08,Viúvo,Masculino
+13,113,Emanuel Camargo,kevin95@example.net,2024-01-29,Viúvo,Feminino
+14,114,Mariana Azevedo,lopesana-carolina@example.net,2025-01-03,Solteiro,Masculino
+15,115,Enzo Marques,ogomes@example.com,2023-01-10,Casado,Feminino
+16,116,Henry Machado,salesmaria-flor@example.net,2025-01-10,Viúvo,Masculino
+17,117,Srta. Maitê Barbosa,vieiratheo@example.com,2024-01-09,Viúvo,Feminino
+18,118,Sr. Gustavo Garcia,estersiqueira@example.net,2024-01-05,Viúvo,Feminino
+19,119,Dante Jesus,lizmartins@example.net,2023-01-04,Casado,Masculino
+20,120,Ana Liz Duarte,dantenunes@example.net,2026-01-01,Casado,Feminino
+21,121,Luiz Fernando Alves,juliana61@example.com,2023-01-13,Viúvo,Masculino
+22,122,Josué Moraes,mendesana-cecilia@example.org,2025-01-31,Divorciado,Masculino
+23,123,Pedro Miguel Câmara,alicia44@example.org,2025-01-17,Casado,Masculino
+24,124,Maitê Viana,vianajulia@example.org,2024-01-21,Viúvo,Masculino
+25,125,Srta. Maria Vitória Cardoso,antoniomoreira@example.com,2025-01-28,Viúvo,Feminino
+26,126,Renan Monteiro,maria-fernanda02@example.net,2026-01-25,Solteiro,Masculino
+27,127,Hellena Brito,theocosta@example.com,2024-01-01,Casado,Feminino
+28,128,Sr. Otávio Camargo,vitoria58@example.net,2025-01-20,Viúvo,Feminino
+29,129,Allana Moreira,brendamarques@example.net,2023-01-21,Viúvo,Masculino
+30,130,Agatha Cavalcante,camargofernanda@example.net,2023-01-18,Divorciado,Masculino
