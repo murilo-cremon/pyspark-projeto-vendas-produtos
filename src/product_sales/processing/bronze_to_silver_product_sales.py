@@ -90,6 +90,7 @@ def data_transformation(dataframe):
 
     return df
 
+
 def save_parquet_csv_file_to_trusted_zone(spark, raw_path, trusted_path):
     df = read_raw_file_parquet(spark, raw_path)
     df = change_data_type(df)
