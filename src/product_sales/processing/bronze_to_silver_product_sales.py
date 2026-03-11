@@ -1,17 +1,9 @@
 from pyspark.sql.types import *
 from pyspark.sql.functions import *
 
-def read_raw_file_parquet(spark, raw_path: str):
-    raw_path = raw_path + '/product-sales-raw-parquet/'
-
-    df = (
-        spark.read
-        .format('parquet')
-        .load(raw_path)
-    )
-
-    return df
-
+def read_raw_file_parquet(spark, raw_path):
+    path = raw_path + '/product-sales-raw-parquet/'
+    return spark.read.parquet(path)
 
 def change_data_type(dataframe):
     df = dataframe
