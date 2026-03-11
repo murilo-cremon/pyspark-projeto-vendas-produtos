@@ -1,7 +1,7 @@
 from pyspark.sql.types import *
 from pyspark.sql.functions import *
 
-def struct_type_definition() -> StructType:
+def struct_type_definition():
     schema_landing_zone = StructType([
         StructField('id_pedido', StringType(), True),
         StructField('data_pedido', StringType(), True),
@@ -24,8 +24,8 @@ def struct_type_definition() -> StructType:
     return schema_landing_zone
 
 
-def read_csv_file(spark, file_ingestion: str):
-    df = (
+def read_csv_file(spark, file_ingestion):
+    return (
         spark.read
         .option('header', 'true')
         .option('sep', ',')
@@ -33,13 +33,11 @@ def read_csv_file(spark, file_ingestion: str):
         .csv(file_ingestion)
     )
 
-    return df
 
-
-def ingestion_file_raw_zone(spark, file_ingestion: str, raw_zone_path: str):
+def ingestion_file_raw_zone(spark, file_ingestion, raw_zone_path):
     df = read_csv_file(spark, file_ingestion)
-    csv_file_name = raw_zone_path + 'product-sales-raw-csv'
-    parquet_file_name = raw_zone_path + 'product-sales-raw-parquet'
+    csv_file_name = raw_zone_path + '/product-sales-raw-csv'
+    parquet_file_name = raw_zone_path + '/product-sales-raw-parquet'
     
     df.write \
         .option('header', 'true') \

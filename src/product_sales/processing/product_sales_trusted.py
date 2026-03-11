@@ -5,11 +5,9 @@ def read_raw_file_parquet(spark, raw_path):
     path = raw_path + '/product-sales-raw-parquet/'
     return spark.read.parquet(path)
 
-def change_data_type(dataframe):
-    df = dataframe
-    
+def change_data_type(dataframe):   
     df = (
-        df
+        dataframe
         .withColumn('id_pedido', col('id_pedido').cast('int'))
         .withColumn('data_pedido', to_date(col('data_pedido'), 'yyyy-mm-dd'))
         .withColumn('data_cadastro_cliente', to_date(col('data_cadastro_cliente'), 'yyyy-mm-dd'))
@@ -25,7 +23,7 @@ def change_data_type(dataframe):
 
 def reaname_column(dataframe):
     df = dataframe
-
+    
     rename_col = {
         'data_pedido': 'dt_pedido',
         'data_cadastro_cliente': 'dt_cadastro',
@@ -43,19 +41,14 @@ def reaname_column(dataframe):
     }
 
     for old_name, new_name in rename_col.items():
-        df = (
-            df
-            .withColumnRenamed(old_name, new_name)
-        )
+        df = df.withColumnRenamed(old_name, new_name)
 
     return df
 
 
 def data_transformation(dataframe):
-    df = dataframe
-
     df = (
-        df
+        dataframe
         .withColumn(
             'genero',
             when(trim(col('genero')) == 'M', 'Masculino')
@@ -83,21 +76,24 @@ def data_transformation(dataframe):
     return df
 
 
-def save_parquet_csv_file_to_trusted_zone(spark, raw_path, trusted_path):
-    df = read_raw_file_parquet(spark, raw_path)
-    df = change_data_type(df)
-    df = reaname_column(df)
-    df = data_transformation(df)
-
+def save_product_sales_trusted_zone(dataframe, trusted_path):
     csv_file_name = trusted_path + '/product-sales-trusted-csv'
     parquet_file_name = trusted_path + '/product-sales-trusted-parquet'
 
-    df.write \
+    dataframe.write \
         .option('header', 'true') \
         .option('sep', ',') \
         .mode('overwrite') \
         .csv(csv_file_name)
     
-    df.write \
+    dataframe.write \
         .mode('overwrite') \
         .parquet(parquet_file_name)
+    
+
+def process_trusted_product_sales(spark, raw_path, trusted_path):
+    df = read_raw_file_parquet(spark, raw_path)
+    df = change_data_type(df)
+    df = reaname_column(df)
+    df = data_transformation(df)
+    save_product_sales_trusted_zone(df, trusted_path)
