@@ -20,17 +20,21 @@ def aggregate_sales_fact(dataframe):
         'id_cliente', 'id_produto', 'dt_pedido', 'vl_venda', 'qt_venda'
     ]
 
+    group_by_list =[
+        'id_cliente', 'id_produto', 'dt_pedido'
+    ]    
+
     df = (
         dataframe
         .select(column_list)
-        .groupBy(column_list)
+        .groupBy(group_by_list)
         .agg(
             F.sum('vl_venda').alias('vl_vendas'),
             F.sum('qt_venda').alias('qt_vendas')
         )
         .withColumn(
             'vl_total',
-            F.col('vl_venda') * F.col('qt_venda')
+            F.col('vl_vendas') * F.col('qt_vendas')
         )
         .drop('vl_venda', 'qt_venda')
     )

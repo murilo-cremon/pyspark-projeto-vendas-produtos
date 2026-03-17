@@ -23,4 +23,4 @@ def job_execution():
     spark.stop()
 
 if __name__ == "__main__":
-    job_execution()    
+    job_execution()
